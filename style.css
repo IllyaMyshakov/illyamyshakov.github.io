@@ -2,6 +2,10 @@ body{
 	background-color: azure;
 	font-family: 'Raleway', sans-serif;
 }
-h1, h2 {
+div.h1{
+	background-image: url("coverphoto.jpg");
+	background-position: centre;
+	background-repeat: no-repeat;
+	background-size: 300 px 100 px;
 	text-align: centre;	
 }
