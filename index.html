@@ -7,15 +7,17 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 	<body>
-		 <!-- Header -->
-  	<nav class="header">
-    	<ul>
-      		<li><a class="home" href="#top">Illya Myshakov</a></li>
-      		<li><a class="pagelink" href="#studies">My Studies</a></li>
-      		<li><a class="pagelink" href="#projects">My Programming Experience</a></li>
-      		<li><a class="pagelink" href="#travels">My Travels</a></li>
-    	</ul>
-  	</nav>
+		 <!-- Floating menu -->
+	<script src="/Dropdown.js"></script>
+  	<div class="dropdown">
+	  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  	    <div id="myDropdown" class="dropdown-content">
+    	 	<a href="#studies">My Studies</a>
+    		<a href="#projects">My Experiences</a>
+    		<a href="#travels">My Travels</a>
+  	    </div>
+	</div>
+		
 	<h1>Illya Myshakov</h1>
 	<!-- Studies Section -->
 	<div id="studies">
