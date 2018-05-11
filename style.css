@@ -8,7 +8,7 @@ body {
 }
 
 h1{
-	background-image: url(".../coverphoto.jpg");
+	background-image: url("/coverphoto.jpg");
 	text-aligh: center;
 	position: center;
 	background-repeat: no-repeat;
