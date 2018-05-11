@@ -1,11 +1,44 @@
-body{
+/* Universal styles */
+html {
+ }
+
+body {
 	background-color: azure;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', Helvetica, sans-serif;
 }
-div h1{
-	background-image: url("coverphoto.jpg");
+
+h1{
+	background-image: url(".../coverphoto.jpg");
 	text-aligh: center;
 	position: center;
 	background-repeat: no-repeat;
 	background-size: 100 px 50 px;	
+}
+
+h2 {
+  }
+
+a {
+}
+
+p {
+}
+/* Header */
+header {
+}
+
+header .row,
+footer .row {
+}
+
+header h1 {
+}
+
+header nav {
+}
+
+header p {
+}
+
+footer {
 }
