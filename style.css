@@ -19,9 +19,14 @@ h2 {
   }
 
 a {
+	text-decoration: none;
 }
 
 p {
+}
+#studies, #projects, #travels {
+	padding-top: 77px;
+  	margin-top: -77px;
 }
 /* Header */
 header {
