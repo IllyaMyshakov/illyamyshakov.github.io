@@ -15,14 +15,13 @@ body, html {
 .titlecard { 
     /* The image used */
     background-image: url("/coverphoto.jpg");
-
-    /* Full height */
-    height: 100%; 
-
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    padding-top: 10vh;
+    text-align: center;
 }
 
 .titlecard h1{
