@@ -3,64 +3,68 @@ html {
  }
 
 body {
-	background-color: #f4f5f7;
+	background-color: #ffffff;
 	font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 h1{
-	background-image: url("/coverphoto.jpg");
-	text-aligh: center;
-	position: center;
-	background-repeat: no-repeat;
-	background-size: 100 px 50 px;	
+	
+}
+
+.titlecard h1 {
+    background: url("/coverphoto.jpg") no-repeat center center;
+    text-align: center;
+    font-size: 50px;
+    position: center;
+    background-repeat: no-repeat;
+    background-size: 100 px 50 px;
+    background-size: cover;
+    max-width: 767px;
 }
 
 h2 {
-  }
+    font-size: 40px;
+    text-align: center;
+}
 
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
 a {
 	text-decoration: none;
 }
 
 p {
+
+}
+
+.list-paragraph li{
+    font-size: 16px;
+    text-decoration: none;
+
 }
 #studies, #projects, #travels, #interests, #contact {
 	padding-top: 77px;
   	margin-top: -77px;
 }
-/* Header */
-header {
-}
 
-header .row,
-footer .row {
-}
-
-header h1 {
-}
-
-header nav {
-}
-
-header p {
-}
-
-footer {
-}
 /* Dropdown Menu */
-navbar {
+.navbar {
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #efefef;
+    z-index: 5;
 }
-navbar a {
+.navbar a {
     text-decoration: none;
     float: left;
     padding: 14px 16px;
-    
+    z-index: 5;
 }
 /* Dropdown Button */
 .dropbtn {
-    background-color: #ffffff;
+    background-color: #efefef;
     color: black;
     padding: 16px;
     font-size: 16px;

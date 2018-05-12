@@ -10,38 +10,64 @@
 </head>
 	<body>
 		 <!-- Floating menu, navbar -->
-	<script src="/Dropdown.js"></script>
 	<div class="navbar">
-  	<div class="dropdown">
-	  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  	  <div id="myDropdown" class="dropdown-content">
-    	 	<a href="#studies">My Studies</a>
-    		<a href="#projects">My Experiences</a>
-    		<a href="#travels">My Travels</a>
-		<a href="#interests">My Interests</a>
-		<a href="#contact">Contact Information</a>
-  	  </div>
+  		<div class="dropdown">
+	  		<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  	  			<div id="myDropdown" class="dropdown-content">
+    	 			<a href="#studies">My Studies</a>
+    				<a href="#projects">My Experiences</a>
+    				<a href="#travels">My Travels</a>
+					<a href="#interests">My Interests</a>
+					<a href="#contact">Contact Information</a>
+  	 			 </div>
+			</div>
+		</div>
+		<a href="#">Illya Myshakov</a>
+	<div class="titlecard">
+		<h1>Illya Myshakov</h1>
 	</div>
-	</div>
-		
-	<h1>Illya Myshakov</h1>
 	<!-- Studies Section -->
 	<div id="studies">
-	<h2>Student</h2>
-	<p>I am a 1st year Electrical Engineering student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. I am also an Electrical team member in the <a href="https://teamwaterloop.ca/">Waterloop</a> design team. This website will provide more information about myself, and my contact information.
-	</p>
-	<!-- Projects Section -->
+		<h2>Student</h2>
+		<p>I am a 1st year Electrical Engineering student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. I am also an Electrical team member in the <a href="https://teamwaterloop.ca/">Waterloop</a> design team. This website will provide more information about myself, and my contact information.
+		</p>
+		<!-- Projects Section -->
 	<div id="projects">
-	<h2>Programmer</h2>
-	<p>I've completed a Fundamentals of Programming course in my first year with C++, where I've handled dynamic memory allocation through linked lists that utilized class and struct definitions. I've also done file analysis, error checking and creation, as well as creating, sorting, and storing abstract data structures. I've also done self-learning in Python, Java, and Javascript. 
-	</p>
+		<h2>Programmer</h2>
+		<p>I've completed a Fundamentals of Programming course in my first year with C++, where I've handled dynamic memory allocation through linked lists that utilized class and struct definitions. 
+		</p>
+		<div class="list-paragraph">
+			<p1>Programming languages I have worked with include:
+				<ul>
+					<li>C++</li>
+					<li>Objective-C</li>
+					<li>Java</li>
+					<li>JavaScript</li>
+					<li>Python</li>
+			</p1>
+		</div>
 	<!-- Travels Section -->
 	<div id="travels">
-	<h2>Traveller</h2>
-	<p>I've travelled quite a bit of the world over the past decade, spanning locations such as Qatar, Oman, Vietnam, and Thailand, to name a few.
-	</p>
-	<!-- Interests Section -->
-	<div id="interests">
+		<h2>Traveller</h2>
+		<div class="list-paragraph">
+			<p1>I've travelled quite a bit of the world over the past decade.These are the places I have traveled to:
+				<ul>
+					<li>Thailand</li>
+					<li>Vietnam</li>
+					<li>India</li>
+					<li>Sri Lanka</li>
+					<li>Qatar</li>
+					<li>United Arab Emirates</li>
+					<li>Egypt</li>
+					<li>Ukraine</li>
+					<li>Poland</li>
+					<li>Finland</li>
+					<li>Germany</li>
+					<li>United Kingdom</li>
+			</p1>
+		</div>
+		<!-- Interests Section -->
+		<div id="interests">
 	<h3>Interests</h3>
 		<p>
       		<li>Jogging</li>
@@ -55,4 +81,7 @@
       </p>
     </div>
 	</body>
+<!-- JS scripts -->
+<script src="/Dropdown.js"></script>
+
 </html>
