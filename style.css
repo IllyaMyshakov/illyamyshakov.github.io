@@ -48,6 +48,16 @@ header p {
 footer {
 }
 /* Dropdown Menu */
+navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+}
+navbar a {
+    text-decoration: none;
+    float: left;
+    padding: 14px 16px;
+    
+}
 /* Dropdown Button */
 .dropbtn {
     background-color: #ffffff;
