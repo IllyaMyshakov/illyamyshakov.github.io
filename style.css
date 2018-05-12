@@ -5,31 +5,28 @@ html {
 body {
 	background-color: #ffffff;
 	font-family: 'Raleway', Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 h1{
-	
+	text-align: center;
+    font-size: 50px;
 }
 
-.titlecard h1 {
+.titlecard {
     background: url("/coverphoto.jpg") no-repeat center center;
-    text-align: center;
-    font-size: 50px;
     position: center;
-    background-repeat: no-repeat;
-    background-size: 100 px 50 px;
     background-size: cover;
     max-width: 767px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
 }
 a {
@@ -49,7 +46,9 @@ p {
 	padding-top: 77px;
   	margin-top: -77px;
 }
-
+#interests {
+    font-size: 16px;
+}
 /* Dropdown Menu */
 .navbar {
     overflow: hidden;
