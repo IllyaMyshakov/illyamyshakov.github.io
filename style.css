@@ -3,7 +3,7 @@ html {
  }
 
 body {
-	background-color: azure;
+	background-color: #f4f5f7;
 	font-family: 'Raleway', Helvetica, sans-serif;
 }
 
@@ -50,8 +50,8 @@ footer {
 /* Dropdown Menu */
 /* Dropdown Button */
 .dropbtn {
-    background-color: #3498DB;
-    color: white;
+    background-color: #ffffff;
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
