@@ -59,17 +59,16 @@ p {
     font-size: 16px;
 }
 /* Dropdown Menu */
-.navbar {
+.navbar navbar-inverse navbar-fixed-top {
     overflow: hidden;
     background-color: #efefef;
-    z-index: 5;
 }
-.navbar a {
+.navbar navbar-inverse navbar-fixed-top a {
     text-decoration: none;
     float: left;
     padding: 14px 16px;
-    z-index: 5;
 }
+
 /* Dropdown Button */
 .dropbtn {
     background-color: #efefef;
