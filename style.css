@@ -5,7 +5,29 @@ html {
 body {
 	background-color: #ffffff;
 	font-family: 'Raleway', Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.titlecard { 
+    /* The image used */
+    background-image: url("/coverphoto.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titlecard h1 {
+    text-align: center;
+    font-size: 50px;
 }
 
 h1{
@@ -13,12 +35,6 @@ h1{
     font-size: 50px;
 }
 
-.titlecard {
-    background: url("/coverphoto.jpg") no-repeat center center;
-    position: center;
-    background-size: cover;
-    max-width: 767px;
-}
 
 h2 {
     font-size: 20px;
@@ -43,8 +59,8 @@ p {
 
 }
 #studies, #projects, #travels, #interests, #contact {
-	padding-top: 77px;
-  	margin-top: -77px;
+	padding-top: 50px;
+  	margin-top: -50px;
 }
 #interests {
     font-size: 16px;
