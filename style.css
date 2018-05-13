@@ -43,7 +43,7 @@ a {
 }
 
 p {
-
+    margin-left: 20px;
 }
 
 .list-paragraph li{
@@ -62,12 +62,19 @@ p {
     overflow: hidden;
     background-color: #efefef;
 }
+.container-fluid {
+    overflow: hidden;
+    background-color: #efefef;   
+}
 .navbar navbar-inverse navbar-fixed-top a {
     text-decoration: none;
     float: left;
     padding: 14px 16px;
 }
 
+.navbar-header navbar-brand {
+    text-align: center;
+}
 /* Dropdown Button */
 .dropbtn {
     background-color: #efefef;
