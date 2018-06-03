@@ -47,6 +47,7 @@ a {
 p, p1 {
     margin-left: 20px;
     margin-right: 20px;
+    margin: auto;
 }
 
 .list-paragraph li{
@@ -74,14 +75,6 @@ p, p1 {
     padding: 14px 16px;
     z-index: 5;
 }
-
-.navbar-header {
-    float: left;
-    padding: 15px;
-    /*text-align: center;*/
-    width: 100%;
-}
-.navbar-brand {float:none;}
 
 .container-fluid {
     overflow: hidden;
