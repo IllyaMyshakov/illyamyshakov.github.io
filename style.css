@@ -31,12 +31,14 @@ body, html {
 
 h2 {
     font-size: 20px;
+    margin: auto;
     text-align: center;
 }
 
 h3 {
     font-size: 20px;
     text-align: center;
+    margin: auto;
 }
 a {
 	text-decoration: none;
@@ -52,7 +54,7 @@ p, p1 {
     text-decoration: none;
 
 }
-#studies, #experience, #travels, #interests, #contact {
+#studies, #experience, #travels, #interests {
 	padding-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
@@ -68,7 +70,6 @@ p, p1 {
 }
 .navbar navbar-default navbar-fixed-top a {
     text-decoration: none;
-    text-align: center;
     float: left;
     padding: 14px 16px;
     z-index: 5;
@@ -136,3 +137,34 @@ p, p1 {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 /* END of Dropdown Menu */
+.resumeBtn col-sm-6 {
+    margin: auto;
+}
+.contact-bar {
+    width: 100%;
+    background-color: #ffffff; 
+    overflow: auto;
+    margin: auto;
+    padding-bottom: 5vh;
+}
+
+.contact-bar a {
+    float: left; 
+    text-align: center; 
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+    margin: auto;
+    padding-bottom: 5vh;
+}
+
+.contact-bar a:hover {
+    background-color: #F8F8F8; /* Add a hover color */
+    margin: auto;
+}
+
+.active {
+    background-color: #F8F8F8; /* Add an active/current color */
+}
