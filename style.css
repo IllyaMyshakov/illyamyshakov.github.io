@@ -144,8 +144,9 @@ p, p1 {
     width: 100%;
     background-color: #ffffff; 
     overflow: auto;
-    margin: auto;
+    margin-top: 2vh;
     padding-bottom: 5vh;
+    text-align: center;
 }
 
 .contact-bar a {
@@ -156,7 +157,7 @@ p, p1 {
     transition: all 0.3s ease;
     color: white;
     font-size: 36px;
-    margin: auto;
+    margin-top: 3vh;
     padding-bottom: 5vh;
 }
 
