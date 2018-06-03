@@ -78,7 +78,7 @@ p, p1 {
 .navbar-header {
     float: left;
     padding: 15px;
-    text-align: center;
+    /*text-align: center;*/
     width: 100%;
 }
 .navbar-brand {float:none;}
@@ -88,10 +88,6 @@ p, p1 {
     background-color: #efefef;   
 }
 
-.navbar-header{
-    text-align: center;
-
-}
 /* Dropdown Button */
 .dropbtn {
     background-color: #efefef;
