@@ -71,7 +71,6 @@ p, p1 {
 }
 .navbar navbar-default navbar-fixed-top a {
     text-decoration: none;
-    float: left;
     padding: 14px 16px;
     z-index: 5;
 }
@@ -136,6 +135,7 @@ p, p1 {
     margin-top: 2vh;
     padding-bottom: 5vh;
     text-align: center;
+    margin: auto;
 }
 
 .contact-bar a {
