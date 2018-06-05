@@ -126,7 +126,8 @@ p, p1 {
 .show {display:block;}
 /* END of Dropdown Menu */
 .resumeBtn col-sm-6 {
-    margin: auto;
+    margin: 0 auto;
+    color: #ffffff;
 }
 .contact-bar {
     width: 100%;
@@ -135,26 +136,25 @@ p, p1 {
     margin-top: 2vh;
     padding-bottom: 5vh;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .contact-bar a {
-    float: left; 
     text-align: center; 
     width: 20%;
     padding: 12px 0;
     transition: all 0.3s ease;
     color: white;
     font-size: 36px;
-    margin-top: 3vh;
+    margin: 0 auto;
     padding-bottom: 5vh;
 }
 
 .contact-bar a:hover {
-    background-color: #F8F8F8; /* Add a hover color */
-    margin: auto;
+    background-color: #ffffff; /* Add a hover color */
+    margin: 0 auto;
 }
 
 .active {
-    background-color: #F8F8F8; /* Add an active/current color */
+    background-color: #ffffff; /* Add an active/current color */
 }
