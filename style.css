@@ -56,14 +56,10 @@ p, p1 {
 
 }
 #studies, #experience, #travels {
-	padding-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-#studies {
+	text-align: left;
     padding-top: 50px;
     margin-left: 20px;
-    margin-right: 20px;   
+    margin-right: 20px;
 }
 
 /* Dropdown Menu */
@@ -80,9 +76,7 @@ p, p1 {
     padding: 14px 16px;
     z-index: 5;
 }
-.container {
-    text-align: center;
-}
+
 /* Dropdown Button */
 .dropdown {
     float: left;
@@ -130,11 +124,7 @@ p, p1 {
 .show {
     display: block;
 }/* END of Dropdown Menu */
-.resumeBtn col-sm-6 {
-    text-align: center;
-    margin: 0 auto;
-    color: #ffffff;
-}
+
 .contact-bar {
     width: 100%;
     background-color: #ffffff; 
