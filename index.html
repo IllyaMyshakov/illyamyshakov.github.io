@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest Bootstrap CDN -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   	<script data-cfasync="false" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script data-cfasync="false" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -15,49 +16,17 @@
 	<!-- Font Awesome stuff -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-	<body>
+<body>
 	<div class="titlecard"></div>
-	
 	<!-- Navigation bar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-          <a class="navbar-brand" href="#">Illya Myshakov</a>
+	<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand text-center center-block" href="#">Illya Myshakov</a>
       </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="navbarmenu.png"><span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#studies">My Studies</a></li>
-                <li><a href="#projects">My Experiences</a></li>
-                <li><a href="#travels">My Travels</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#contact">Resume & Contact Information</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-</nav>
-	<!-- Studies Section -->
-	<div class="container-fluid" id="studies">
-		<h2>My Studies</h2>
-		<p>I am a 1st year Electrical Engineering student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. I am also an Electrical team member in the <a href="https://teamwaterloop.ca/">Waterloop</a> design team. Here you will find my contact information, resume, and more about myself.
-		</p>
-		
-		<!-- Projects Section, include links to github for projects -->
-	<div id="experience">
-		<h2>My Experiences</h2>
-		<p>I've completed a Fundamentals of Programming course in my first year in engineering with C++, where I've handled dynamic memory allocation through linked lists that utilized class and struct definitions. Here is a link to my past completed coursework for this <a href="https://github.com/IllyaMyshakov/Past-Coursework/">course</a>.
-		</p>
-		<div class="list-paragraph">
-			<p1>Programming languages I have worked with include:
-				<ul>
-					<li>C++</li>
-					<li>Objective-C</li>
-					<li>Java</li>
-					<li>JavaScript</li>
-					<li>Python</li>
-			</p1>
+	</nav>
+	<div class="container-fluid">
+		<div class = "intro col-sm-8">
+			<p>I'm Illya, a 1st year Electrical Engineering student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. Here you can find my resume, contact information and more about myself. I am currently on my first co-op term. I am also an Electrical team member in the <a href="https://teamwaterloop.ca/">Waterloop</a> design team.
 		</div>
 		<div class="list-paragraph">
 			<p1>My work experience include:
@@ -66,28 +35,17 @@
 					<li>Recycling Sorter - <a href= "http://gflenv.com/">GFL Environmental Inc</a></li>
 			</p1>
 		</div>
-	<!-- Travels Section, maybe create gallery? -->
-	<div id="travels">
-		<h2>My Travels</h2>
+		<p>I've completed a Fundamentals of Programming course in my first year in engineering with C++, where I've handled dynamic memory allocation through linked lists that utilized class and struct definitions. Here is a link to my past completed coursework for this <a href="https://github.com/IllyaMyshakov/Past-Coursework/">course</a>.
+		</p>
 		<div class="list-paragraph">
-			<p1>I've travelled quite a bit of the world over the past decade. These are the places I have traveled to:
+			<p1>Programming languages I have worked with include:
 				<ul>
-					<li>Thailand</li>
-					<li>Vietnam</li>
-					<li>India</li>
-					<li>Sri Lanka</li>
-					<li>Qatar</li>
-					<li>Oman</li>
-					<li>United Arab Emirates</li>
-					<li>Ukraine</li>
-					<li>Poland</li>
-					<li>Finland</li>
-					<li>Germany</li>
-					<li>United Kingdom</li>
+					<li>C/C++</li>
+					<li>Java</li>
+					<li>JavaScript</li>
+					<li>Python</li>
 			</p1>
 		</div>
-		<!-- Interests Section -->
-	<div id="interests">
 		<!-- Contact Information -->
 		<div class = "contact-bar">
 			<a href="Illya_Myshakov_Resume.pdf" target="_blank" class="hvr-grow viewResume">
@@ -97,6 +55,5 @@
   			<a href="https://github.com/IllyaMyshakov/"><button class = "btn"><img src="githublogo.png" alt="Github Portfolio" width="42" height="42" border="0"></button></a> 
   			<a href="https://www.linkedin.com/in/illyamyshakov/"><button class = "btn"><img src="linkedinlogo.png" alt="LinkedIn" width="42" height="42" border="0"></i></button></a> 
 		</div>
-    </div>
 </body>
 </html>
