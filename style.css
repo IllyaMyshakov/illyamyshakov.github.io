@@ -149,7 +149,9 @@ p, p1 {
     background-color: #ffffff; /* Add a hover color */
     margin: 0 auto;
 }
-
+.btn btn-primary btn-lg {
+    color: white;
+}
 .active {
     background-color: #ffffff; /* Add an active/current color */
 }
