@@ -55,7 +55,7 @@ p, p1 {
     text-decoration: none;
 
 }
-#studies, #experience, #travels, #interests {
+#studies, #experience, #travels {
 	padding-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
@@ -65,11 +65,9 @@ p, p1 {
     margin-left: 20px;
     margin-right: 20px;   
 }
-#interests {
-    font-size: 16px;
-}
+
 /* Dropdown Menu */
-.navbar {
+.navbar navbar-default navbar-fixed-top {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -77,18 +75,14 @@ p, p1 {
     background-color: #efefef;
     z-index: 5;
 }
-.navbar a{
+.navbar navbar-default navbar-fixed-top a {
     text-decoration: none;
     padding: 14px 16px;
     z-index: 5;
 }
-
-.navbar_name {
+.container {
     text-align: center;
-    font-size: 24px;
-    color: #000000;
 }
-
 /* Dropdown Button */
 .dropdown {
     float: left;
@@ -137,6 +131,7 @@ p, p1 {
     display: block;
 }/* END of Dropdown Menu */
 .resumeBtn col-sm-6 {
+    text-align: center;
     margin: 0 auto;
     color: #ffffff;
 }

@@ -8,10 +8,6 @@
 	<!-- BootStrap Max CDN-->
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- Font link -->
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
 	<!-- My CSS file -->
@@ -19,22 +15,41 @@
 	<!-- Font Awesome stuff -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+	<body>
 	<div class="titlecard"></div>
 	<!-- Navigation bar -->
-	<div class="navbar">
-		<div class="dropdown">
-   		 <button class="dropbtn" onclick="myFunction()"><img src="navbarmenu.png" alt="Menu" width="42" height="42" border="0"></button>
-    	<div class="dropdown-content" id="myDropdown">
-      		<a href="#studies">My Studies</a>
-        	<a href="#projects">My Experiences</a>
-    		<a href="#travels">My Travels</a>
-    		<a href="#interests">My Interests</a>
-    		<a href="#contact">Contact Information</a>
-    	</div>
-		</div>
-		<a class="navbar_name" href="#">Illya Myshakov</a>
-	</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="#">Illya Myshakov</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#studies">My Studies</a></li>
+                <li><a href="#projects">My Experiences</a></li>
+                <li><a href="#travels">My Travels</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#contact">Resume & Contact Information</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<!--
+    <div class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><button onclick="myFunction()" class="dropbtn">Dropdown</button><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#studies">My Studies</a></li>
+          <li><a href="#projects">My Experiences</a></li>
+    	  <li><a href="#travels">My Travels</a></li>
+    	  <li><a href="#interests">My Interests</a></li>
+    	  <li><a href="#contact">Contact information</a></li>
+        </ul>
+      </div> -->
+  </div>
+</nav>
 	<!-- Studies Section -->
 	<div id="studies">
 		<h2>My Studies</h2>
@@ -85,13 +100,6 @@
 		</div>
 		<!-- Interests Section -->
 	<div id="interests">
-		<h3>My Interests</h3>
-			<p>
-      			<li>Jogging</li>
-      			<li>Cycling</li>
-      			<li>Swimming</li>
-      			<li>Scottish Country Dancing</li>
-			</p>
 		<div class="resumeBtn col-sm-6">
      		<a href="Illya_Myshakov_Resume.pdf" target="_blank" class="hvr-grow viewResume">
         	    <button type="button" class="btn btn-primary btn-lg"><img src="downloadresume.png" alt="Resume" width="42" height="42" border="0"></i></button>
@@ -107,5 +115,9 @@
 </body>
 <!-- JS scripts -->
 <script src="/Dropdown.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </html>
