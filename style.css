@@ -55,14 +55,9 @@ p, p1 {
     text-decoration: none;
 
 }
-#studies, #experience, #travels {
-	text-align: left;
-    padding-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+.intro {
+    margin: 0 auto;
 }
-
-/* Dropdown Menu */
 .navbar navbar-default navbar-fixed-top {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
