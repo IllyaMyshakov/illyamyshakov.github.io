@@ -5,7 +5,7 @@ html {
 body {
 	background-color: #ffffff;
 	font-family: 'Raleway', Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 /* for cover photo */
 body, html {
@@ -60,24 +60,33 @@ p, p1 {
     margin-left: 20px;
     margin-right: 20px;
 }
+#studies {
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;   
+}
 #interests {
     font-size: 16px;
 }
 /* Dropdown Menu */
-.navbar navbar-default navbar-fixed-top {
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
     overflow: hidden;
     background-color: #efefef;
     z-index: 5;
 }
-.navbar navbar-default navbar-fixed-top a {
+.navbar a{
     text-decoration: none;
     padding: 14px 16px;
     z-index: 5;
 }
 
-.container-fluid {
-    overflow: hidden;
-    background-color: #efefef;   
+.navbar_name {
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
 }
 
 /* Dropdown Button */
