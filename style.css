@@ -6,6 +6,7 @@ body {
 	background-color: #ffffff;
 	font-family: 'Raleway', Helvetica, sans-serif;
     font-size: 18px;
+    margin: 0 auto;
 }
 /* for cover photo */
 body, html {
@@ -29,22 +30,12 @@ body, html {
     text-align: center;
 }
 
-h2 {
-    font-size: 20px;
-    margin: auto;
-    text-align: center;
-}
-
-h3 {
-    font-size: 20px;
-    text-align: center;
-    margin: auto;
-}
 a {
 	text-decoration: none;
 }
 
 p, p1 {
+    padding: 10px 20px;
     margin-left: 20px;
     margin-right: 20px;
     margin: auto;
@@ -55,9 +46,12 @@ p, p1 {
     text-decoration: none;
 
 }
+/* Content */
 .intro {
     margin: 0 auto;
+    padding: 10px 20px;
 }
+/* Navbar settings */
 .navbar navbar-default navbar-fixed-top {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -75,7 +69,7 @@ p, p1 {
 .navbar-brand {
     float: none;
 }
-
+/* Resume and Contact settings */
 .contact-bar {
     width: 100%;
     background-color: #ffffff; 
@@ -93,6 +87,7 @@ p, p1 {
     color: white;
     font-size: 36px;
     margin: 0 auto;
+    margin-top: 3vh;
     padding-bottom: 5vh;
 }
 
