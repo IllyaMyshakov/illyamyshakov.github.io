@@ -1,18 +1,18 @@
-/* Universal styles */
+/*==Universal styles==*/
 html {
  }
 
 body {
 	background-color: #ffffff;
 	font-family: 'Raleway', Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     margin: 0 auto;
 }
-/* for cover photo */
+/*==for cover photo==*/
 body, html {
     height: 100%;
 }
-
+/*==Background Image==*/
 .titlecard { 
     /* The image used */
     background-image: url("/coverphoto.jpg");
@@ -46,12 +46,12 @@ p, p1 {
     text-decoration: none;
 
 }
-/* Content */
+/*==Content==*/
 .intro {
     margin: 0 auto;
     padding: 10px 20px;
 }
-/* Navbar settings */
+/*==Navbar settings==*/
 .navbar navbar-default navbar-fixed-top {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -69,7 +69,7 @@ p, p1 {
 .navbar-brand {
     float: none;
 }
-/* Resume and Contact settings */
+/*==Resume and Contact settings==*/
 .contact-bar {
     width: 100%;
     background-color: #ffffff; 
@@ -97,4 +97,25 @@ p, p1 {
 }
 .active {
     background-color: #ffffff; /* Add an active/current color */
+}
+/*==Past Experiences== Inspiration from Emma Lozhkin -> http://emmalozhkin.com/*/
+.experienceText{
+	margin: 0 3rem;
+}
+.experienceText h3{
+	font-size: 2vw;
+}
+.experienceText h4{
+	font-size:1.1vw;
+	font-weight: lighter;
+	color:grey;
+	line-height: 0.5rem;
+}
+.experienceText li{
+	padding:0.5rem 0;
+	font-size:1.2vw;
+}
+.experienceLogo{
+	width:12vw;
+	height:auto;
 }
