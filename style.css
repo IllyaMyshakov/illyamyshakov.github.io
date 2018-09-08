@@ -53,6 +53,7 @@ a {
 .intro {
     margin: 0 auto;
     padding: 10px 20px;
+    position: relative;
 }
 p, p1 {
     padding: 10px 20px;
@@ -67,10 +68,11 @@ p, p1 {
 }
 
 .headline {
-	margin: auto;
+	margin:0 auto;
 	padding: 2vw;
-	font-size: 3vw;]
+	font-size: 5vw;
 	text-align: center;
+	width:1000px
 }
 
 .container {
@@ -102,7 +104,8 @@ p, p1 {
 	height:112px;
 	float: left;
 	border: 0;
-	padding-left: 10vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
 }
 .divider {
 	background-color:#939393;
