@@ -55,6 +55,11 @@ a {
     padding: 10px 20px;
     position: relative;
 }
+.intro img {
+	width: 10vw;
+	height: 10vw;
+	padding: 5vw;
+}
 p, p1 {
     padding: 10px 20px;
     margin-left: 20px;
@@ -104,8 +109,7 @@ p, p1 {
 	float: left;
 	border: 0;
 	position: relative;
-	padding-left: 1vw;
-	padding-right: 1vw;
+	padding: 5vw;
 }
 .divider {
 	background-color:#939393;
