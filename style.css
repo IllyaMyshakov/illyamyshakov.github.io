@@ -68,7 +68,7 @@ p, p1 {
 
 .headline {
 	margin: auto;
-	padding: 10vw;
+	padding: 2vw;
 	font-size: 3vw;]
 	text-align: center;
 }
@@ -102,7 +102,7 @@ p, p1 {
 	height:112px;
 	float: left;
 	border: 0;
-	padding: 10vw;
+	padding-left: 10vw;
 }
 .divider {
 	background-color:#939393;
