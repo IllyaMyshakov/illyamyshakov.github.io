@@ -66,9 +66,7 @@ p, p1 {
     padding: 14px 16px;
     z-index: 5;
 }
-.navbar-brand {
-    float: none;
-}
+
 /*==Resume and Contact settings==*/
 .contact-bar {
     width: 100%;
