@@ -92,8 +92,7 @@ p, p1 {
 .experienceText {
 	margin: 0 3rem;
 	overflow: hidden;
-	/*white-space: nowrap;*/
-	overflow-wrap: normal;
+	white-space: nowrap;
 	position: relative;
 }
 .experienceText h3 {
@@ -110,12 +109,22 @@ p, p1 {
 	font-size:1.2vw;
 }
 .experienceLogo {
+<<<<<<< HEAD
 	width:100px;
 	height:150px;
 	float: left;
 	border: 0;
 	position: fixed;
 	padding: 1vw 6vw;
+=======
+	width:150px;
+	height:200px;
+	float: left;
+	border: 0;
+	position: relative;
+	padding: 2vw 6vw;
+	margin: 1vw;
+>>>>>>> parent of bdec864... Fixes
 }
 .experienceLogo img {
 	width: 200px;
@@ -127,10 +136,12 @@ p, p1 {
 	width:70%;
 	margin:6vw auto;
 }
+<<<<<<< HEAD
 .programming{
+=======
+.programming {
+>>>>>>> parent of bdec864... Fixes
 	padding: 10px 20px;
-	margin:0 auto;
-	width: 100%;
 }
 .programming_icon {
 	font-size: 64px;
