@@ -34,8 +34,13 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
       	<div class="container-fluid">
         	<a class="navbar-brand" href="#">Illya Myshakov</a>
-          	<li class="nav-item active"><a class="nav-link" href="#"></a></li>
-          	<li class="nav-item active"><a class="nav-link" href="#experience">Experience</a></li>
+        	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+        			<ul class="navbar-nav mr-auto">
+          			<li class="nav-item active"><a class="nav-link" href="#experience">Experience</a></li>
+          		<!--<li class="nav-item active"><a class="nav-link" href="#aboutme">About Me</a></li>-->
+          			<li class="nav-item active"><a class="nav-link" href="#contact">Contact Me/Resume</a></li>
+          		</ul>
+        	</div>
       	</div>
 	</nav>
 	<!-- Main content -->
@@ -43,7 +48,7 @@
 		<div class="row">
 			<div class = "intro">
 				<p>I'm Illya, a 2nd year Electrical Engineering student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. Here you can find my resume, contact information and more about myself. I am currently looking for my second co-op opportunity for the Winter (January-April) 2019 term.
-				</p> <br/>
+				</p><br><br>
 				<!-- Work Experience -->
 	<div class="container-fluid" id="experience">
   		<div class="row">
@@ -67,7 +72,7 @@
 	<div class="container-fluid">
   		<div class="row">
     		<div class="col">
-    			<div class="experienceLogo"><img src="gfl.jpg" alt="Silfab" width="112" height="112" border="0"></div>
+    			<div class="experienceLogo"><img src="gfl.jpg" alt="GFL" width="120" height="112" border="0"></div>
     		</div>
     		<div class="col-12">
     			<div class="experienceText">
@@ -81,6 +86,7 @@
     		</div>
     	</div>
 	</div>
+	<br><br>
 				<!-- Volunteer/Design Team Experience -->
 				<div class="list-paragraph">
 					<p1>My volunteer/design team experience include:
@@ -107,7 +113,7 @@
 		</div>
 	</div>
 		<!-- Contact Information -->
-		<div class = "contact-bar">
+		<div class = "contact-bar" id="contact">
 			<a href="Illya_Myshakov_Resume.pdf" target="_blank" class="hvr-grow viewResume">
         	    <button type="button" class="btn btn-info btn-lg"><img src="downloadresume.png" alt="Resume" width="42" height="42" border="0"></button>
         	</a>
@@ -115,6 +121,25 @@
   			<a href="https://github.com/IllyaMyshakov/" target="_blank"><button class = "btn"><img src="githublogo.png" alt="Github Portfolio" width="42" height="42" border="0"></button></a> 
   			<a href="https://www.linkedin.com/in/illyamyshakov/" target="_blank"><button class = "btn"><img src="linkedinlogo.png" alt="LinkedIn" width="42" height="42" border="0"></button></a> 
 		</div>
+	<!-- Footer -->
+	<footer class="page-footer font-small pt-4">
+
+    <!--
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Footer Content</h5>
+          <p>Here you can use rows and columns here to organize your footer content.</p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+      </div>
+    </div>
+-->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">Designed and coded by <br><br>© Illya Myshakov | 2018</div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 </body>
 
 </html>
