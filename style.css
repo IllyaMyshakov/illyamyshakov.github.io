@@ -116,6 +116,7 @@ p, p1 {
 .experienceLogo{
 	width:12vw;
 	height:auto;
+	float: left;
 }
 .footer-copyright text-center py-3{
 	background-color: #f2f2f2;
