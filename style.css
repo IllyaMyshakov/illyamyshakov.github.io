@@ -102,7 +102,6 @@ p, p1 {
 }
 .experienceLogo {
 	float: left;
-	border: 0;
 	position: fixed;
 	padding: 1vw 6vw;
 }
@@ -119,7 +118,7 @@ p, p1 {
 	position: relative;
 }
 .programming_icon {
-	font-size: 64px;
+	font-size: 32px;
 }
 /*==More about me==*/
 .extras {
