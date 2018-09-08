@@ -58,7 +58,7 @@ a {
 .intro img {
 	width: 5vw;
 	height: 5vw;
-	padding: 5vw;
+	padding: 1vw;
 }
 p, p1 {
     padding: 10px 20px;
@@ -109,7 +109,7 @@ p, p1 {
 	float: left;
 	border: 0;
 	position: relative;
-	padding: 8vw;
+	padding: 2vw 6vw;
 	margin: 1vw;
 }
 .divider {
