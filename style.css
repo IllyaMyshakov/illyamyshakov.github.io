@@ -49,7 +49,7 @@ a {
 /*==Content==*/
 .intro {
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 20px;
 }
 .image {
 	padding-top: 12vh;
@@ -109,8 +109,8 @@ p, p1 {
 	padding: 1vw 6vw;
 }
 .experienceLogo img {
-	width: 200px;
-	height: 300px;
+	width: 100px;
+	height: 150px;
 }
 .divider {
 	background-color:#939393;
@@ -120,6 +120,7 @@ p, p1 {
 }
 .programming{
 	padding: 10px 20px;
+	margin:0 auto;
 }
 .programming_icon {
 	font-size: 32px;
@@ -128,6 +129,7 @@ p, p1 {
 .extras {
 	margin:0 auto;
 	width: 100%;
+	padding: 10px 20px;
 }
 /*==Resume and Contact settings==*/
 .contact-bar {
@@ -157,7 +159,8 @@ p, p1 {
     background-color: #ffffff; /* Add an active/current color */
 }
 /*==Footer==*/
-.footer-copyright text-center py-3 {
+.footer {
 	background-color: #f2f2f2;
 	padding-bottom: 5vh;
+	margin:0 auto;
 }
