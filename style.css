@@ -12,6 +12,9 @@ body, html {
     height: 100%;
 }
 /*==Navbar settings==*/
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:32px !important}
+
 .navbar navbar-default navbar-fixed-top {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -65,10 +68,9 @@ a {
     border-radius: 100px;
 }
 p, p1 {
-    padding: 10px 20px;
+    padding: 5px 20px;
     margin-left: 20px;
     margin-right: 20px;
-    margin: auto;
 }
 
 .list-paragraph li {
@@ -84,9 +86,6 @@ p, p1 {
 	width:100%;
 }
 
-.container-fluid{
-	padding: 5vw;
-}
 /*==Past Experiences== Inspiration from Emma Lozhkin -> http://emmalozhkin.com/*/
 
 .experienceText {
