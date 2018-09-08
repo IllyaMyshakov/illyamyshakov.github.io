@@ -81,10 +81,11 @@ p, p1 {
 	padding: 2vw;
 	font-size: 5vw;
 	text-align: center;
-	width:1000px
+	width:100%;
 }
 
-.container {
+.container-fluid{
+	padding: 5vw;
 }
 /*==Past Experiences== Inspiration from Emma Lozhkin -> http://emmalozhkin.com/*/
 
@@ -109,12 +110,16 @@ p, p1 {
 	font-size:1.2vw;
 }
 .experienceLogo {
-	width:300px;
-	height:400px;
+	width:100px;
+	height:150px;
 	float: left;
 	border: 0;
-	position: relative;
+	position: fixed;
 	padding: 1vw 6vw;
+}
+.experienceLogo img {
+	width: 200px;
+	height: 300px;
 }
 .divider {
 	background-color:#939393;
@@ -122,7 +127,7 @@ p, p1 {
 	width:70%;
 	margin:6vw auto;
 }
-.programming container-fluid{
+.programming{
 	padding: 10px 20px;
 	margin:0 auto;
 	width: 100%;
@@ -133,7 +138,7 @@ p, p1 {
 /*==More about me==*/
 .extras {
 	margin:0 auto;
-	width: 1000px;
+	width: 100%;
 }
 .extras h1 {
 	padding: 2vw;
