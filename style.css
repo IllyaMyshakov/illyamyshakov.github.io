@@ -11,7 +11,10 @@ body {
 body, html {
     height: 100%;
 }
-/*==Navbar settings==*/
+/*==Navbar settings==
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:32px !important}*/
+
 .navbar navbar-default navbar-fixed-top {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -39,36 +42,31 @@ body, html {
     padding-top: 10vh;
     text-align: center;
 }
-
 .titlecard h1 {
     font-size: 50px;
     text-align: center;
 }
-
 a {
 	text-decoration: none;
 }
-
 /*==Content==*/
 .intro {
     margin: 0 auto;
     padding: 10px 20px;
-    position: relative;
 }
 .image {
-	padding-top: 7vh;
+	padding-top: 12vh;
 }
 .image img{
 	display: block;
     margin-left: 15vw;
-    width: 150px;
-    border-radius: 100px;
+    width: 220px;
+    border-radius: 110px;
 }
 p, p1 {
-    padding: 10px 20px;
+    padding: 5px 20px;
     margin-left: 20px;
     margin-right: 20px;
-    margin: auto;
 }
 
 .list-paragraph li {
@@ -84,15 +82,12 @@ p, p1 {
 	width:100%;
 }
 
-.container-fluid{
-	padding: 5vw;
-}
 /*==Past Experiences== Inspiration from Emma Lozhkin -> http://emmalozhkin.com/*/
 
 .experienceText {
-	margin: 0 3rem;
+	margin:0 3rem;
 	overflow: hidden;
-	white-space: nowrap;
+	overflow-wrap: normal;
 	position: relative;
 }
 .experienceText h3 {
@@ -109,22 +104,12 @@ p, p1 {
 	font-size:1.2vw;
 }
 .experienceLogo {
-<<<<<<< HEAD
 	width:100px;
 	height:150px;
 	float: left;
 	border: 0;
 	position: fixed;
 	padding: 1vw 6vw;
-=======
-	width:150px;
-	height:200px;
-	float: left;
-	border: 0;
-	position: relative;
-	padding: 2vw 6vw;
-	margin: 1vw;
->>>>>>> parent of bdec864... Fixes
 }
 .experienceLogo img {
 	width: 200px;
@@ -136,27 +121,16 @@ p, p1 {
 	width:70%;
 	margin:6vw auto;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 .programming{
-=======
-.programming {
->>>>>>> parent of bdec864... Fixes
 	padding: 10px 20px;
 }
-=======
->>>>>>> parent of 603e94d... Photo resizing
 .programming_icon {
-	font-size: 64px;
+	font-size: 32px;
 }
 /*==More about me==*/
 .extras {
 	margin:0 auto;
 	width: 100%;
-}
-.extras h1 {
-	padding: 2vw;
-	font-size: 5vw;
 }
 /*==Resume and Contact settings==*/
 .contact-bar {
@@ -167,7 +141,6 @@ p, p1 {
     text-align: center;
     margin: 0 auto;
 }
-
 .contact-bar a {
     text-align: center; 
     width: 20%;
@@ -175,11 +148,10 @@ p, p1 {
     transition: all 0.3s ease;
     color: white;
     font-size: 36px;
-    margin: 0 auto;
+    margin:0 auto;
     margin-top: 3vh;
     padding-bottom: 5vh;
 }
-
 .contact-bar a:hover {
     background-color: #ffffff; /* Add a hover color */
     margin: 0 auto;
