@@ -91,7 +91,8 @@ p, p1 {
 .experienceText {
 	margin: 0 3rem;
 	overflow: hidden;
-	white-space: nowrap;
+	/*white-space: nowrap;*/
+	overflow-wrap: normal;
 	position: relative;
 }
 .experienceText h3 {
@@ -108,13 +109,12 @@ p, p1 {
 	font-size:1.2vw;
 }
 .experienceLogo {
-	width:150px;
-	height:200px;
+	width:300px;
+	height:400px;
 	float: left;
 	border: 0;
 	position: relative;
-	padding: 2vw 6vw;
-	margin: 1vw;
+	padding: 1vw 6vw;
 }
 .divider {
 	background-color:#939393;
@@ -122,8 +122,10 @@ p, p1 {
 	width:70%;
 	margin:6vw auto;
 }
-.programming {
+.programming container-fluid{
 	padding: 10px 20px;
+	margin:0 auto;
+	width: 100%;
 }
 .programming_icon {
 	font-size: 64px;
