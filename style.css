@@ -8,10 +8,25 @@ body {
     font-size: 19px;
     margin: 0 auto;
 }
-/*==for cover photo==*/
 body, html {
     height: 100%;
 }
+/*==Navbar settings==*/
+.navbar navbar-default navbar-fixed-top {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    overflow: hidden;
+    background-color: #efefef;
+    z-index: 5;
+    text-align: center;
+}
+.navbar navbar-default navbar-fixed-top a {
+    text-decoration: none;
+    padding: 14px 16px;
+    z-index: 5;
+}
+
 /*==Background Image==*/
 .titlecard { 
     /* The image used */
@@ -34,6 +49,11 @@ a {
 	text-decoration: none;
 }
 
+/*==Content==*/
+.intro {
+    margin: 0 auto;
+    padding: 10px 20px;
+}
 p, p1 {
     padding: 10px 20px;
     margin-left: 20px;
@@ -46,26 +66,39 @@ p, p1 {
     text-decoration: none;
 
 }
-/*==Content==*/
-.intro {
-    margin: 0 auto;
-    padding: 10px 20px;
+
+/*==Past Experiences== Inspiration from Emma Lozhkin -> http://emmalozhkin.com/*/
+
+.experienceText {
+	margin: 0 3rem;
+	overflow: hidden;
+	white-space: nowrap;
 }
-/*==Navbar settings==*/
-.navbar navbar-default navbar-fixed-top {
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    overflow: hidden;
-    background-color: #efefef;
-    z-index: 5;
-    text-align: center;
+.experienceText h3 {
+	font-size: 2vw;
 }
-.navbar navbar-default navbar-fixed-top a {
-    text-decoration: none;
-    padding: 14px 16px;
-    z-index: 5;
+.experienceText h4 {
+	font-size:1.1vw;
+	font-weight: lighter;
+	color:grey;
+	line-height: 0.5rem;
 }
+.experienceText li {
+	padding:0.5rem 0;
+	font-size:1.2vw;
+}
+.experienceLogo {
+	width:12vw;
+	height:auto;
+	float: left;
+}
+.divider {
+	background-color:#939393;
+	height:1px;
+	width:70%;
+	margin:6vw auto;
+}
+/*==More about me==*/
 
 /*==Resume and Contact settings==*/
 .contact-bar {
@@ -96,32 +129,7 @@ p, p1 {
 .active {
     background-color: #ffffff; /* Add an active/current color */
 }
-/*==Past Experiences== Inspiration from Emma Lozhkin -> http://emmalozhkin.com/*/
-.flexcontainer {
-	position: relative;
-}
-.experienceText {
-	margin: 0 3rem;
-}
-.experienceText h3 {
-	font-size: 2vw;
-}
-.experienceText h4 {
-	font-size:1.1vw;
-	font-weight: lighter;
-	color:grey;
-	line-height: 0.5rem;
-}
-.experienceText li {
-	padding:0.5rem 0;
-	font-size:1.2vw;
-	float: right;
-}
-.experienceLogo {
-	width:12vw;
-	height:auto;
-	float: left;
-}
+/*==Footer==*/
 .footer-copyright text-center py-3 {
 	background-color: #f2f2f2;
 	padding-bottom: 5vh;
