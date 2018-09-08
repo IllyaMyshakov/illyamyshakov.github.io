@@ -56,7 +56,7 @@ a {
     position: relative;
 }
 .image {
-	padding-top: 17vh;
+	padding-top: 7vh;
 }
 .image img{
 	display: block;
@@ -123,12 +123,16 @@ p, p1 {
 	margin:6vw auto;
 }
 .programming_icon {
-	font-size: 32px;
+	font-size: 64px;
 }
 /*==More about me==*/
 .extras {
 	margin:0 auto;
 	width: 1000px;
+}
+.extras h1 {
+	padding: 2vw;
+	font-size: 5vw;
 }
 /*==Resume and Contact settings==*/
 .contact-bar {
