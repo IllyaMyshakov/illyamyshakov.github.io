@@ -69,9 +69,14 @@ p, p1 {
 .headline {
 	margin: auto;
 	padding: 10vw;
-	font-size: 3vw;
+	font-size: 3vw;]
+	text-align: center;
 }
 
+.container {
+	width:100px;
+	height:112px;
+}
 /*==Past Experiences== Inspiration from Emma Lozhkin -> http://emmalozhkin.com/*/
 
 .experienceText {
@@ -93,8 +98,8 @@ p, p1 {
 	font-size:1.2vw;
 }
 .experienceLogo {
-	width:12vw;
-	height:auto;
+	width:100px;
+	height:112px;
 	float: left;
 	border: 0;
 	padding: 10vw;
