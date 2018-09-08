@@ -60,9 +60,9 @@ a {
 }
 .image img{
 	display: block;
-    margin-left: 15vw;
-    width: 150px;
-    border-radius: 100px;
+    margin-left: 11vw;
+    width: 220px;
+    border-radius: 110px;
 }
 p, p1 {
     padding: 10px 20px;
@@ -122,6 +122,9 @@ p, p1 {
 	width:70%;
 	margin:6vw auto;
 }
+.programming {
+	padding: 10px 20px;
+}
 .programming_icon {
 	font-size: 64px;
 }
@@ -164,7 +167,10 @@ p, p1 {
     background-color: #ffffff; /* Add an active/current color */
 }
 /*==Footer==*/
-.footer-copyright text-center py-3 {
+.footer {
 	background-color: #f2f2f2;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
 	padding-bottom: 5vh;
 }
