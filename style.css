@@ -26,7 +26,7 @@ body, html {
 }
 .navbar navbar-default navbar-fixed-top a {
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 14px 14px;
     z-index: 5;
 }
 
@@ -108,22 +108,12 @@ p, p1 {
 	font-size:1.2vw;
 }
 .experienceLogo {
-<<<<<<< HEAD
 	width:100px;
 	height:150px;
 	float: left;
 	border: 0;
 	position: fixed;
 	padding: 1vw 6vw;
-=======
-	width:150px;
-	height:200px;
-	float: left;
-	border: 0;
-	position: relative;
-	padding: 2vw 6vw;
-	margin: 1vw;
->>>>>>> parent of bdec864... Fixes
 }
 .experienceLogo img {
 	width: 200px;
@@ -135,16 +125,11 @@ p, p1 {
 	width:70%;
 	margin:6vw auto;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .programming{
-=======
-.programming {
->>>>>>> parent of bdec864... Fixes
 	padding: 10px 20px;
 }
-=======
->>>>>>> parent of 603e94d... Photo resizing
+
 .programming_icon {
 	font-size: 64px;
 }
@@ -174,7 +159,7 @@ p, p1 {
     transition: all 0.3s ease;
     color: white;
     font-size: 36px;
-    margin: 0 auto;
+    margin:0 auto;
     margin-top: 3vh;
     padding-bottom: 5vh;
 }
