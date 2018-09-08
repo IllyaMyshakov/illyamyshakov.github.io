@@ -101,17 +101,12 @@ p, p1 {
 	font-size:1.2vw;
 }
 .experienceLogo {
-	width:100px;
-	height:150px;
 	float: left;
 	border: 0;
 	position: fixed;
 	padding: 1vw 6vw;
 }
-.experienceLogo img {
-	width: 100px;
-	height: 150px;
-}
+
 .divider {
 	background-color:#939393;
 	height:1px;
@@ -119,17 +114,18 @@ p, p1 {
 	margin:6vw auto;
 }
 .programming{
-	padding: 10px 20px;
+	padding: 10vw 20vw;
 	margin:0 auto;
+	position: relative;
 }
 .programming_icon {
-	font-size: 32px;
+	font-size: 64px;
 }
 /*==More about me==*/
 .extras {
 	margin:0 auto;
 	width: 100%;
-	padding: 10px 20px;
+	padding: 30px;
 }
 /*==Resume and Contact settings==*/
 .contact-bar {
