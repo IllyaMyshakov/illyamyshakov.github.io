@@ -76,8 +76,6 @@ p, p1 {
 }
 
 .container {
-	width:100px;
-	height:112px;
 }
 /*==Past Experiences== Inspiration from Emma Lozhkin -> http://emmalozhkin.com/*/
 
@@ -85,6 +83,7 @@ p, p1 {
 	margin: 0 3rem;
 	overflow: hidden;
 	white-space: nowrap;
+	position: relative;
 }
 .experienceText h3 {
 	font-size: 2vw;
@@ -104,6 +103,7 @@ p, p1 {
 	height:112px;
 	float: left;
 	border: 0;
+	position: relative;
 	padding-left: 1vw;
 	padding-right: 1vw;
 }
