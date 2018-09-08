@@ -64,7 +64,12 @@ p, p1 {
 .list-paragraph li {
     font-size: 16px;
     text-decoration: none;
+}
 
+.headline {
+	margin: auto;
+	padding: 10vw;
+	font-size: 3vw;
 }
 
 /*==Past Experiences== Inspiration from Emma Lozhkin -> http://emmalozhkin.com/*/
@@ -91,6 +96,8 @@ p, p1 {
 	width:12vw;
 	height:auto;
 	float: left;
+	border: 0;
+	padding: 10vw;
 }
 .divider {
 	background-color:#939393;
