@@ -1,0 +1,55 @@
+/*==Universal styles==*/
+html {
+}
+
+body {
+   background-color: #d3eef1;
+   font-family: 'Raleway', Helvetica, sans-serif;
+   font-size: 19px;
+   margin: 0 auto;
+}
+body, html {
+   height: 100%;
+}
+/*==Return Home Navbar==*/
+.navbar navbar-default navbar-fixed-top {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    overflow: hidden;
+    background-color: #efefef;
+    z-index: 5;
+    font-size: 18px;
+}
+.navbar navbar-default navbar-fixed-top a {
+    text-decoration: none;
+    padding: 14px 16px;
+    z-index: 5;
+}
+/*==Contact Information page==*/
+.contact-bar {
+    width: 100%;
+    background-color: #ffffff; 
+    overflow: auto;
+    padding: 10vh;
+    text-align: center;
+    margin: 0 auto;
+}
+.contact-bar a {
+    text-align: center; 
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+    margin:0 auto;
+    margin-top: 3vh;
+    padding-bottom: 5vh;
+}
+.contact-bar a:hover {
+    background-color: #ffffff; /* Add a hover color */
+    margin: 0 auto;
+}
+.active {
+    background-color: #ffffff; /* Add an active/current color */
+}

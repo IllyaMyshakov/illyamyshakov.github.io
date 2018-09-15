@@ -3,7 +3,7 @@ html {
  }
 
 body {
-	background-color: #ffffff;
+	background-color: #d3eef1;
 	font-family: 'Raleway', Helvetica, sans-serif;
     font-size: 19px;
     margin: 0 auto;
@@ -12,22 +12,7 @@ body, html {
     height: 100%;
 }
 
-.navbar navbar-default navbar-fixed-top {
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    overflow: hidden;
-    background-color: #efefef;
-    z-index: 5;
-    font-size: 18px;
-}
-.navbar navbar-default navbar-fixed-top a {
-    text-decoration: none;
-    padding: 14px 16px;
-    z-index: 5;
-}
-
-/*==Background Image==*/
+/*==Main Screen==*/
 .titlecard { 
     /* The image used */
     background-image: url("/coverphoto.jpg");
@@ -45,35 +30,4 @@ body, html {
 }
 a {
 	text-decoration: none;
-}
-/*==Content==*/
-.intro {
-    margin: 0 auto;
-    padding: 20px;
-}
-.image {
-	padding-top: 12vh;
-}
-.image img{
-	display: block;
-    margin-left: 15vw;
-    width: 220px;
-    border-radius: 110px;
-}
-p, p1 {
-    padding: 5px 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.list-paragraph li {
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.headline {
-	margin:0 auto;
-	font-size: 5vw;
-	text-align: center;
-	width:100%;
 }
