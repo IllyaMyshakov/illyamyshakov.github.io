@@ -9,7 +9,7 @@
   		gtag('js', new Date());
   		gtag('config', 'UA-124057947-1');
 	</script>
-
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Latest Bootstrap CDN -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -17,34 +17,38 @@
 	<script data-cfasync="false" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script data-cfasync="false" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   	<title>Illya Myshakov</title>
-	<!-- Favicon PLACEHOLDER -->
-	<link rel="icon" href="/bolt.png">
+	<!-- Favicon -->
+	<link rel="icon" href="./img/bolt.png">
 	<!-- Font link -->
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
 	<!-- My CSS file -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<!-- Font Awesome stuff -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	
+	<script src="./js/anime.min.js"></script>
 </head>
 <body>
 	<div id="easing">
-		<div class="square el"></div>
+		<div class="titlecard el">
+			<h1>Illya Myshakov</h1>
+		</div>
 	</div>
-	<div class="titlecard"></div>
-
-	<div class="container-fluid">
-		<ul>
-			<li><a href="bio.html">Bio</a></li>
-			<li><a href="experience.html">Experience</a></li>
-			<li><a href="contact.html">Contact Me</a></li>
-			<li><a href="projects.html">Projects</a></li>
-			<li>
-				<a href="Illya_Myshakov_Resume.pdf" target="_blank" class="hvr-grow viewResume">
-					<button type="button" class="btn btn-info btn-lg"><img src="downloadresume.png" alt="Resume" width="42" height="42" border="0"></button>
-				</a>
-			</li>
-		</ul>
+	<div class="intro">
+		<p>Welcome to my website! <br>
+		Here you can preview a short biography about myself, my various experiences, and projects I've been up to.
+		You can also find my contact information and a copy of my resume below.
+		</p>
 	</div>
+	<div class="divider"></div>
+	<div class="menu">
+		<div class="center"><i class="fas fa-bars" id="_middle"></i>
+			<div class="button"><a href="./webpage/bio.html">Bio</a></div>
+			<div class="button"><a href="./webpage/experience.html">Experience</a></div>
+			<div class="button"><a href="./webpage/contact.html">Contact Me</a></div>
+			<div class="button"><a href="./webpage/projects.html">Projects</a></div>
+			<div class="button"><a href="./files/Illya_Myshakov_Resume.pdf" target="_blank" class="hvr-grow viewResume"><img src="img/downloadresume.png"></a></div>
+		</div>
+	</div>
+    <script src="/js/main.js"></script>
 </body>
 </html>

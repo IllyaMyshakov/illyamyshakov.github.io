@@ -1,0 +1,95 @@
+/*==Universal styles==*/
+html {
+}
+
+body {
+	background-color: white;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: 19px;
+    margin: 0 auto;
+    height: 100%;
+}
+body, html {
+    height: 100%;
+}
+
+/*==Main Screen==*/
+.titlecard { 
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5vh;
+    padding-bottom: 30vh;
+    text-align: center;
+    margin: 10vh;
+}
+.titlecard h1 {
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+    display: none;
+}
+.a {
+	text-decoration: none;
+}
+.divider {
+	background-color:#939393;
+	height:1px;
+	width:70%;
+    margin:2vw auto;
+}
+.intro {
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    width: 35%;
+}
+.into p {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin:0 auto;
+    display: none;
+}
+/*==Circular Menu==*/
+.menu {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: white;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.center {
+    width: 110px;
+    height: 110px;
+    background-color: rgb(131, 195, 255);
+    border-radius: 100%;
+    position: relative;
+    line-height: 100px;
+    text-align: center;
+}
+#_middle {
+    font-size:40px;
+}
+.button {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    background-color: rgb(78, 149, 255); 
+    line-height: 100px;
+    text-align: center;
+}
