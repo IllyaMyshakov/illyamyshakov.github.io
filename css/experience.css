@@ -51,7 +51,7 @@ body {
 .experienceText {
 	margin:0 3rem;
 	overflow-wrap: normal;
-	padding: 40px;
+	padding: 50px;
 }
 
 .experienceText li {
@@ -64,9 +64,4 @@ body {
 	position: absolute;
 	right: 0px;
     padding: 4vw 0vw 1vw 5vw;
-}
-.hide {
-}
-.large_container {
-    height: 2000px;
 }

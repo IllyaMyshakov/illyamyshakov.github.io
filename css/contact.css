@@ -55,7 +55,7 @@ body, html {
     width: 100%;
     background-color: #ffffff; 
     overflow: auto;
-    padding: 10vw;
+    padding: 5vw;
     text-align: center;
     margin: 0 auto;
 }
@@ -70,10 +70,23 @@ body, html {
     margin-top: 3vh;
     padding-bottom: 5vh;
 }
+.contact-bar p{
+    padding: 2vw;
+    color: black;
+}
+.divider_2 {
+	background-color:#939393;
+	height:1px;
+	width:30%;
+	margin:1vw auto;	
+}
 .contact-bar a:hover {
     background-color: #ffffff; /* Add a hover color */
     margin: 0 auto;
 }
 .active {
     background-color: #ffffff; /* Add an active/current color */
+}
+.btn {
+    margin:4vw auto;   
 }
