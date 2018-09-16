@@ -27,11 +27,34 @@ body, html {
     z-index: 5;
 }
 /*==Contact Information page==*/
+.divider {
+	background-color:#939393;
+	height:1px;
+	width:70%;
+    margin:0 auto;
+}
+.titlecard { 
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5vh;
+    padding-top: 5vw;
+    text-align: center;
+    margin: 10vh;
+    padding: 5vw;
+}
+.titlecard h1 {
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+}
+
 .contact-bar {
     width: 100%;
     background-color: #ffffff; 
     overflow: auto;
-    padding: 10vh;
+    padding: 10vw;
     text-align: center;
     margin: 0 auto;
 }

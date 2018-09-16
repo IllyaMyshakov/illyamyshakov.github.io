@@ -5,7 +5,7 @@ var easing = anime({
   });
 
 $(document).ready(function(){
-    $('h1,p').fadeIn(3000);
+    $('h1').fadeIn(3000);
 });
 
 const buttons = Array.from(document.querySelectorAll('.button')) // instanciate an array of number of buttons called 

@@ -3,9 +3,10 @@ html {
 }
 
 body {
-	background-color: white;
+	background-color: rgb(14, 40, 187);
     font-family: 'Raleway', Helvetica, sans-serif;
     font-size: 19px;
+    color: white;
     margin: 0 auto;
     height: 100%;
 }
@@ -16,7 +17,7 @@ body, html {
 /*==Main Screen==*/
 .titlecard { 
     background-position: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(14, 40, 187);
     background-repeat: no-repeat;
     background-size: cover;
     height: 5vh;
@@ -34,13 +35,13 @@ body, html {
 	text-decoration: none;
 }
 .divider {
-	background-color:#939393;
+	background-color:white;
 	height:1px;
 	width:70%;
     margin:2vw auto;
 }
 .intro {
-    background-color: white;
+    background-color: rgb(14, 40, 187);
     margin: 0 auto;
     padding: 20px;
     width: 35%;
@@ -51,7 +52,6 @@ body, html {
     margin-right: 20px;
     text-align: center;
     margin:0 auto;
-    display: none;
 }
 /*==Circular Menu==*/
 .menu {
