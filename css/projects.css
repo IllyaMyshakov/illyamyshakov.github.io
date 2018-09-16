@@ -3,7 +3,7 @@ html {
 }
 
 body {
-   background-color: #d3eef1;
+   background-color: #ffffff;
    font-family: 'Raleway', Helvetica, sans-serif;
    font-size: 19px;
    margin: 0 auto;
@@ -27,3 +27,8 @@ body, html {
     z-index: 5;
 }
 /*==Projects page==*/
+.experienceText {
+	margin:0 auto;
+	overflow-wrap: normal;
+	padding: 40px;
+}
