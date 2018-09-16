@@ -30,26 +30,7 @@ body, html {
     left: 50%;
     transform: translatex(-50%);
 }
-/*==Biography==*/
-.intro {
-    margin: 0 auto;
-    padding: 20px;
-}
-.image {
-	padding-top: 12vh;
-}
-.image img{
-	display: block;
-    margin-left: 15vw;
-    width: 220px;
-    border-radius: 110px;
-    right:50%;
-}
-p, p1 {
-    padding: 5px 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 /*==Titlecard==*/
 .divider {
 	background-color:#939393;
@@ -73,14 +54,26 @@ p, p1 {
     text-align: center;
     margin: 0;
 }
-.list-paragraph li {
-    font-size: 16px;
-    text-decoration: none;
+/*==Biography==*/
+.profileImg {
+    padding: 50px;
+}
+.profileImg img{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p, p1 {
+    padding: 5px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.headline {
-	margin:0 auto;
-	font-size: 5vw;
-	text-align: center;
-	width:100%;
+.biography {
+    display: block;
+    overflow: hidden;
+    margin:0 auto;
+    padding: 3vw 7vw;
 }
