@@ -13,8 +13,7 @@ body {
 body, html {
     height: 100%;
 }
-
-/*==Main Screen==*/
+/*== Titlecard ==*/
 .titlecard { 
     background-position: center;
     background-color: rgb(14, 40, 187);
@@ -31,15 +30,17 @@ body, html {
     margin: 0;
     display: none;
 }
-.a {
-	text-decoration: none;
-}
 .divider {
 	background-color:white;
 	height:1px;
 	width:70%;
     margin:2vw auto;
 }
+/*==Main Screen==*/
+.a {
+	text-decoration: none;
+}
+
 .intro {
     background-color: rgb(14, 40, 187);
     margin: 0 auto;
@@ -89,7 +90,7 @@ body, html {
     border-radius: 100%;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-    background-color: rgb(78, 149, 255); 
+    background-color: #efefef; 
     line-height: 100px;
     text-align: center;
 }
