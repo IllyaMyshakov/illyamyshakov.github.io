@@ -92,6 +92,7 @@ body, html {
     background-color: #efefef; 
     line-height: 100px;
     text-align: center;
+    padding:10px;
 }
 .fas {
     color: #000000;
