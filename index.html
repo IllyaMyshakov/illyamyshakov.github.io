@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Gobal site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124057947-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+  		gtag('config', 'UA-124057947-1');
+	</script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery CDN -->
+	<script data-cfasync="false" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script data-cfasync="false" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<title>Illya Myshakov</title>
 	<!-- Favicon -->
 	<link rel="icon" href="./img/bolt.png">
+	<!-- Font link -->
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
+	<!-- Font Awesome stuff -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<!-- CSS file -->
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
-	<h1>Illya Myshakov</h1>
-	<p>Under construction. Check back later</p>
+	<!-- Titlecard -->
+	<div class="title">
+		<div id="easing">
+			<div class="titlecard el">
+				<h1>Illya Myshakov</h1>
+			</div>
+		</div>
+		<div class="intro">
+			<p>Welcome to my website! <br>
+			Here you can preview a short biography about myself, my various experiences, and projects I've been up to.
+			You can also find my contact information and a copy of my resume below.
+			</p>
+		</div>
+	</div>
+	<div class="menu">
+		<div class="center"><i class="fas fa-bars" id="_middle"></i>
+			<a href="./files/Illya_Myshakov.pdf" target="_blank" class="hvr-grow viewResume">
+				<div class="button"><i class="fas fa-file-download"></i></div></a>
+			<a href="./webpage/experience.html"><div class="button"><i class="fas fa-suitcase"></i></div></a>
+			<a href="./webpage/projects.html"><div class="button"><i class="fas fa-wrench"></i></div></a>
+			<a href="./webpage/contact.html"><div class="button"><i class="fas fa-envelope"></i></div></a>
+			<a href="./webpage/bio.html"><div class="button"><i class="fas fa-book"></i></div></a>
+		</div>
+	</div>
+	<!-- JS Scripts -->
+	<script src="./js/anime.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
