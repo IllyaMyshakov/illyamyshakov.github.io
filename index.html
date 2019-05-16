@@ -25,109 +25,8 @@
 </head>
 <body>
 	<!-- Animation -->
-	<div class="animation">
-			<div class="bubble-wrap">
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-			<div class="bubble"></div>
-	 	</div>
+	<div class = "animation">
+		<canvas id="particlesField">Current browser does not support this animation</canvas>
 	</div>
 	<!-- Navigation bar -->
 	<nav class="navbar transparent navbar-inverse navbar-fixed-top">
@@ -139,39 +38,56 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="https://illyamyshakov.com">Home</a></li>
 					<li><a href="#about">About</a></li>
-					<li><a href="./files/Illya_Myshakov.pdf" target="_blank">Resume</a></li>
+					<li><a href="./src/files/Illya_Myshakov.pdf" target="_blank">Resume</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 		  	</div>
 		</div>
 	</nav>
 	
-	<!-- Titlecard -->
+	<!-- Titlecard 
 	<div class="title">
 		<p>
 			<span>
 			  Illya Myshakov
 			</span>
 		</p>
-	</div>
+	</div> -->
 	
-	<!-- Titlecard -->
-	<div class="titlecard" id="about">
-		<h1>Biography</h1>
-	</div>
-	<div class="divider"></div>
-	<!-- Biography -->
+	<!-- Profile Image -->
 	<div class="profileImg">
-		<img src="/img/Illya.jpg" class="img-circle" alt="Illya Myshakov">
+		<img src="./src/img/Illya.jpg" class="img-circle" alt="Illya Myshakov">
 	</div>
-
-	
 
 	<!-- Experience -->
 	<div class="container-fluid">
 		<div class="row">
 			<div class="experienceLogo col-sm-4">
-				<img src="/img/Silfab.jpg" alt="Silfab" width="220" height="200" border="0">
+				<img src="./src/img/imagine.jpg" alt="Imagine Communications" width="220" height="200" border="0">
+			</div>
+			<div class="col-sm-8">
+				<div class="experienceText">
+					<h3>QA Developer | <a href= "https://www.imaginecommunications.com/" target="_blank">Imagine Communications</a></h3>
+					<h4>January - April 2019</h4>
+					<h4>Waterloo, Canada</h4>
+					<ul>
+						<li>Developed multiple automated tests using Python and the
+							Sharon framework, which validated audio and video processing to
+							match customer standards.</li>
+						<li>Utilized Bash and Microsoft Server VMs to standardize test
+							automation across varied channel systems and generate required
+							broadcasting environments.</li>
+						<li>Optimized RESTful API calls in graphics related automation
+							scripts, reducing runtimes of batches on average by 15-20%</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="experienceLogo col-sm-4">
+				<img src="./src/img/Silfab.jpg" alt="Silfab" width="220" height="200" border="0">
 			</div>
 			<div class="col-sm-8">
 			  	<div class="experienceText">
@@ -182,35 +98,17 @@
 						<li>Wrote a C++ program that collected daily production data and generated Excel files for QA department which increased reporting time efficiency by 35-50%.</li>
 						<li>Independently learned RAPID robot automation procedures and troubleshooting techniques via HMI control for application in assembly line processes, including conveyor belt operation.</li>
 						<li>Ensured daily production of 100+ solar panels by maintaining supervision of machinery via a Java-based touch interface and collaborating with other professionals.</li>
-					<li>Reference letter: <a href="/files/Reference_Letter_Illya.pdf" target="_blank"><img src="/img/file.jpg" alt="Letter" width="28" height="28" border="0"></a></li>
+					<li>Reference letter: <a href="./src/files/Reference_Letter_Illya.pdf" target="_blank"><img src="./src/img/file.jpg" alt="Letter" width="28" height="28" border="0"></a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
+
 	<div class="container-fluid">
 		<div class="row">
 			<div class="experienceLogo col-sm-4">
-				<img src="/img/gfl.jpg" alt="GFL" width="220" height="200" border="0">
-			</div>
-			<div class="col-sm-8">
-				<div class="experienceText">
-					<h3>Recycling Sorter | <a href= "http://gflenv.com/" target="_blank">GFL Environmental Inc</a></h3>
-					<h4>June - August 2017</h4>
-					<h4>Waterloo, Canada</h4>
-					<ul>
-						<li>Developed organizational skills by augmenting sorting efficiency of 11-person team, ensuring daily quota of +40 bales.</li>
-						<li>Refined leadership skills by training 2 new personnel in accordance to strict sorting and safety procedures.</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="experienceLogo col-sm-4">
-				<img src="/img/waterloop.png" alt="Waterloop" width="220" height="200" border="0">
+				<img src="./src/img/waterloop.png" alt="Waterloop" width="220" height="200" border="0">
 			</div>
 			<div class="col-sm-8">
 				<div class="experienceText">
@@ -228,11 +126,11 @@
 			</div>
 		</div>
 	</div>
-	</div>
+	
 	<div class="container-fluid">
 		<div class="row">
 			<div class="experienceLogo col-sm-4">
-				<img src="/img/enghacks.svg" alt="EngHacks" width="220" height="200" border="0">
+				<img src="./src/img/enghacks.svg" alt="EngHacks" width="220" height="200" border="0">
 			</div>
 			<div class="col-sm-8">
 				<div class="experienceText">
@@ -246,23 +144,8 @@
 			</div>
 		</div>
 	</div>
-	</div>
+	
 	<!-- Projects -->
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-8">
-				<div class="experienceText">
-					<h3>BB-8 Droid Construction</h3>
-					<h4>April 2016 - January 2017</h4>
-					<p>A hardware project, utilizing Arduino motherboards and custom-crafted components which mimicked the shape and movement of the Star Wars droid.</p>
-					<ul>
-						<li>Responsible for component interfacing and Arduino programming that would allow for wireless RC motor control.</li>
-						<li>Handcrafted individual parts to construct droid shell and structure using professional tools.</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-8">
@@ -310,6 +193,7 @@
 	</div>
 
 	<!-- JS Scripts -->
+	<script src="./src/js/index.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>
