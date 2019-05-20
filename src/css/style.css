@@ -1,0 +1,55 @@
+/*==Universal styles==*/
+html{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    padding: 0;
+    overflow: hidden;
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 400 1em/1.5 'Raleway', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* Navbar settings */
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    height: 1rem;
+    width: 100%; /* Full width */
+    z-index: 5;
+}
+.navbar a {
+    text-decoration: none;
+}
+/*== Animation ==*/
+.animation {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+canvas {
+    background-color: #000000;
+    /* Center and scale the image nicely */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/*== Titlecard ==*/
+.titlecard { 
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+.titlecard h1 {
+    font-size: 90px;
+    text-align: center;
+    margin: 0 auto;
+    display: none;
+    padding-bottom: 15vw;
+}

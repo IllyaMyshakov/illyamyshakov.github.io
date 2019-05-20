@@ -20,24 +20,24 @@
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
 	<!-- Font Awesome stuff -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	<!-- CSS file -->
+	<!-- CSS files -->
 	<link rel="stylesheet" type="text/css" href="./src/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/content.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/contact.css">
 </head>
 <body>
 	<!-- Navigation bar -->
 	<nav class="navbar transparent navbar-inverse navbar-fixed-top">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="https://illyamyshakov.com">Illya Myshakov</a>
 			</div>
-			<div id="navbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="https://illyamyshakov.com">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="./src/files/Illya_Myshakov.pdf" target="_blank"><i id="resume-icon" class="fas fa-file-alt"></i></a></li>
-				</ul>
-			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="https://illyamyshakov.com">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="./src/files/Illya_Myshakov.pdf" target="_blank">Resume</i></a></li>
+			</ul>
 		</div>
 	</nav>
 	
@@ -47,8 +47,10 @@
 	</div>
 	
 	<!-- Profile Image -->
-	<div class="profileImg">
-		<img src="./src/img/Illya.jpg" class="img-circle" alt="Illya Myshakov">
+	<div class="titlecard">
+		<div class="profileImg">
+				<img src="./src/img/Illya.jpg" class="img-circle" alt="Illya Myshakov">
+		</div>
 	</div>
 
 	<!-- Experience -->
@@ -158,34 +160,29 @@
 	<!-- Contact Information -->
 	<div class = "contact-bar" id="contact">
 		<div class="row">
-			<div class="col-sm-12">
-				<p>Here you can find my email, LinkedIn, and a link to my GitHub account</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-4 resume">
 				<p>Email</p>
 				<i id="resume-arrow" class="fas fa-arrow-down"></i><br>
-				<a href="mailto:imyshako@edu.uwaterloo.ca"><button class = "btn btn-lg">
+				<a href="mailto:imyshako@edu.uwaterloo.ca">
 					<i class="fas fa-envelope" alt="Mail" width="200" height="200" border="0"></i></button></a>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 linkedin">
 				<p>LinkedIn</p>
 				<i id="resume-arrow" class="fas fa-arrow-down"></i><br>
-				<a href="https://www.linkedin.com/in/illyamyshakov/" target="_blank"><button class = "btn btn-lg">
+				<a href="https://www.linkedin.com/in/illyamyshakov/" target="_blank">
 					<i class="fab fa-linkedin" alt="Linkedin" width="200" height="200" border="0"></i></button></a>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 github">
 				<p>GitHub</p>
 				<i id="resume-arrow" class="fas fa-arrow-down"></i><br>
-				<a href="https://github.com/IllyaMyshakov/" target="_blank"><button class = "btn btn-lg">
+				<a href="https://github.com/IllyaMyshakov/" target="_blank">
 					<i class="fab fa-github" alt="Github" width="200" height="200" border="0"></i></button></a> 
 			</div>
 		</div> 
 	</div>
 	<!-- JS Scripts -->
 	<script src="./src/js/index.js"></script>
-	<script src="./node_modules/animejs/lib/anime.min.js"></script>
+	<script src="./src/js/anime.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>

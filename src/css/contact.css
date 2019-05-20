@@ -1,0 +1,59 @@
+/*==Contact Information page==*/
+
+.contact-bar {
+    width: 100%;
+    overflow: auto;
+    padding: 5vw;
+    text-align: center;
+    margin: 0 auto;
+}
+.contact-bar a {
+    text-align: center; 
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    margin:0 auto;
+    margin-top: 3vh;
+    padding-bottom: 5vh;
+}
+.contact-bar p{
+    padding: 2vw;
+    color: black;
+    font-size: 36px;
+}
+.contact-bar .resume {
+    padding: auto;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 2rem;
+    margin-top: -40px;
+}
+.contact-bar .linkedin {
+    padding: auto;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 2rem;
+    margin-top: -40px;
+}
+.contact-bar .github {
+    padding: auto;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 2rem;
+    margin-top: -40px;
+}
+.contact-bar a:hover {
+    margin: 0 auto;
+}
+.btn {
+    margin:4vw auto;   
+}
