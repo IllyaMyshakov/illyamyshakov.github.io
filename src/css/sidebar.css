@@ -12,14 +12,6 @@
     overflow-x: hidden;
 }
 
-.resume, .mail, .linkedin, .github{
-    padding: 5em;
-    flex-grow: 1;
-    flex-shrink: 1;
-    top: 1rem;
-    margin-top: -40px;
-}
-
 .circle {
     background: black;
     font-size: 30px;
