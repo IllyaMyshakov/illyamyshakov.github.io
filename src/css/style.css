@@ -29,6 +29,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    height:100vh;
 }
 canvas {
     background-color: #000000;

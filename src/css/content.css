@@ -5,47 +5,37 @@
 }
 
 /*== Titlecard ==*/
-.titlecard { 
-    background-position: center;
-    height: 100vh;
-    text-align: center;
+.titlecard {
+    padding: 3vh;
 }
+
 .titlecard h1 {
-    font-size: 90px;
+    font-size: 70px;
     text-align: center;
-    margin: 0 auto;
-    display: none;
-    padding-bottom: 15vw;
-    top:100%;
-    background-image: linear-gradient(black, #d5d5d5);
+    margin: 0;
+    padding: 3vh;
 }
 
 /*== Profile Image ==*/
-.profileImg img {
+.profileImg {
+    padding: 50px;
+}
+.profileImg img{
     width: 20%;
     height: 20%;
     display: block;
     margin-left: auto;
-}
-.img-circle {
-    border-radius: 50%;
-    border: 0;
-}
-
-.gradient {
-    background-image: linear-gradient(black, white);
+    margin-right: auto;
 }
 
 /*== About Me ==*/
 .bio {
     background-color:#d5d5d5;
     margin: 0 auto;
-    padding: 10vh;
 }
 .bio h2 {
     text-align: center;
     font-size: 30px;
-    padding: 2vh;
     margin: 0;
     position: relative;
     font-weight: bold;
@@ -53,8 +43,10 @@
 .introText {
     margin:0 3rem;
 	overflow-wrap: normal;
-	padding: 50px;
+    padding: 6vh 12vw;
+    text-align: center;
 }
+
 .divider {
 	background-color:black;
 	height:1px;
@@ -80,12 +72,3 @@
 	right: 0px;
     padding: 4vw 0vw 1vw 5vw;
 }
-
-/*==Projects==*/
-
-.experienceText {
-	margin:0 auto;
-	overflow-wrap: normal;
-	padding: 40px;
-}
-
