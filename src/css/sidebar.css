@@ -7,27 +7,26 @@
     text-align: center;
     position: fixed;
     z-index: 1;
-    top: 25vh;
+    top: 17.5vh;
     right: 1vw;
     overflow-x: hidden;
 }
 
-.sidebar .mail .linkedin .github{
-    padding: auto;
-    margin: auto;
-    padding: 1rem;
+.resume, .mail, .linkedin, .github{
+    padding: 5em;
     flex-grow: 1;
     flex-shrink: 1;
-    font-size: 1rem;
     top: 1rem;
     margin-top: -40px;
 }
 
 .circle {
     background: black;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     margin-right: 10px;
+    width: 2em;
+    height: 2em;
     border-radius: 50%;
     display:inline-block;
     padding:1.5rem;

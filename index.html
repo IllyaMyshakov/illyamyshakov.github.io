@@ -26,6 +26,7 @@
 	<link rel="stylesheet" type="text/css" href="./src/css/content.css">
 </head>
 <body>
+
 	<!-- Navigation bar -->
 	<nav class="navbar transparent navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
@@ -35,7 +36,6 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="https://illyamyshakov.com">Home</a></li>
 				<li><a href="#about">About</a></li>
-				<li><a href="./src/files/Illya_Myshakov.pdf" target="_blank">Resume</i></a></li>
 			</ul>
 		</div>
 	</nav>
@@ -44,37 +44,68 @@
 	<div class = "animation">
 		<canvas id="particlesField">Current browser does not support this animation</canvas>
 	</div>
-	
-	<!-- Profile Image -->
-	<div class="titlecard">
-		<div class="profileImg">
-			<div class="gradient"></div>
-			<img src="./src/img/Illya_Myshakov.jpg" class="img-circle" alt="Illya Myshakov" width="10vw" height="10vh" border="0">
-		</div>
-	</div>
+	<div class="titlecard"></div>
 
 	<!-- Sidebar -->
 	<div class = "sidebar">
-		<div class="circle">
-			<a href="mailto:imyshako@edu.uwaterloo.ca">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="resume">
+					<div class="circle">
+						<a href="./src/files/Illya_Myshakov.pdf" target="_blank">
+							<i class="fas fa-file-download fa-1x fa-inverse" alt="Resume"></i>
+						</a> 
+					</div>
+				</div>
+			</div>
+			<div class="row">
 				<div class="mail">
-					<i class="fas fa-envelope fa-1x fa-inverse" alt="Mail"></i>
+					<div class="circle">
+						<a href="mailto:imyshako@edu.uwaterloo.ca">
+							<i class="fas fa-envelope fa-1x fa-inverse" alt="Mail"></i>
+						</a>
+					</div>
 				</div>
-			</a>
-		</div>
-		<div class="circle">
-			<a href="https://www.linkedin.com/in/illyamyshakov/" target="_blank">
+			</div>
+			<div class="row">
 				<div class="linkedin">
-					<i class="fab fa-linkedin-in fa-1x fa-inverse" alt="Linkedin"></i>
+					<div class="circle">
+						<a href="https://www.linkedin.com/in/illyamyshakov/" target="_blank">
+							<i class="fab fa-linkedin-in fa-1x fa-inverse" alt="Linkedin"></i>
+						</a>
+					</div>
 				</div>
-			</a>
-		</div>
-		<div class="circle">
-			<a href="https://github.com/IllyaMyshakov/" target="_blank">
+			</div>
+			<div class="row">
 				<div class="github">
-					<i class="fab fa-github fa-1x fa-inverse" alt="Github"></i>
+					<div class="circle">
+						<a href="https://github.com/IllyaMyshakov/" target="_blank">
+								<i class="fab fa-github fa-1x fa-inverse" alt="Github"></i>
+						</a> 
+					</div>
 				</div>
-			</a> 
+			</div>
+		</div>
+	</div>
+	<!-- About Me -->
+	<div class="container-fluid bio" id="about">
+		<div class="row">
+			<h2>About Me</h2>
+			<div class="divider"></div>
+		</div>
+		<div class="row">
+			<div class="profileImg col-sm-4">
+				<div class="img-circle">
+					<img src="./src/img/Illya_Myshakov.jpg" width="220" height="220">
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div class="experienceText">
+					<h3>QA Developer | <a href= "https://www.imaginecommunications.com/" target="_blank">Imagine Communications</a></h3>
+					<h4>January - April 2019</h4>
+					<h4>Waterloo, Canada</h4>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -114,7 +145,7 @@
 					<h4>May - August 2018</h4>
 					<h4>Mississauga, Canada</h4>
 					<ul>
-						<li>Wrote a C++ program that collected daily production data and generated Excel files for QA department which increased reporting time efficiency by 35-50%.</li>
+						<li>Wrote a C++ program that collected daily production data and generated Excel files for QA department which increased reporting time efficiency by 40-50%.</li>
 						<li>Independently learned RAPID robot automation procedures and troubleshooting techniques via HMI control for application in assembly line processes, including conveyor belt operation.</li>
 						<li>Ensured daily production of 100+ solar panels by maintaining supervision of machinery via a Java-based touch interface and collaborating with other professionals.</li>
 					</ul>
@@ -139,42 +170,6 @@
 							device which systematically	read and saved output voltages from testing Lipo cells.</li>
 						<li>Learned soldering and crimping within two weeks through creating sensor circuits 
 							that allowed operations of on-board sensors.</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="container-fluid">
-		<div class="row">
-			<div class="experienceLogo col-sm-4">
-				<img src="./src/img/enghacks.svg" alt="EngHacks" width="220" height="200" border="0">
-			</div>
-			<div class="col-sm-8">
-				<div class="experienceText">
-					<h3>Hackathon Volunteer | <a href= "http://enghack.uwaterloo.ca/" target="_blank">EngHacks</a></h3>
-					<h4>May 2018</h4>
-					<h4>Waterloo, Canada</h4>
-					<ul>
-						<li>Supported participating hackers with equipment checkouts, serving provisions and ensuring a smooth and enjoyable EngHacks event.</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- Projects -->
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-8">
-				<div class="experienceText">
-					<h3>Portfolio Website</h3>
-					<h4>May 2018 – Present</h4>
-					<ul>
-						<li>Utilized HTML, CSS, and JavaScript to construct personal portfolio website showcasing 
-							short biography, completed projects, previous employment & volunteer experiences, contact information and resume.</li>
-						<li>Designed UX using Bootstrap framwork and  library to generate fade-in effects
-							on scroll for Experience page.</li>
 					</ul>
 				</div>
 			</div>
