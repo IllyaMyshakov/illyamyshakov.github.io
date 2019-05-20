@@ -30,7 +30,7 @@
       height = window.innerHeight,
 
       presetDefault = {
-        count: 1000,
+        count: 500,
         size: 1,
         minSpeed: 10,
         maxSpeed: 50,
@@ -41,10 +41,10 @@
       },
 
       presetFast = {
-        count: 1000,
+        count: 500,
         size: 1,
         minSpeed: 20,
-        maxSpeed: 100,
+        maxSpeed: 75,
         startOrigin: {
           x: undefined,
           y: undefined
@@ -52,10 +52,10 @@
       },
 
       presetCentralExplode = {
-        count: 1000,
+        count: 500,
         size: 1,
         minSpeed: 1,
-        maxSpeed: 100,
+        maxSpeed: 75,
         startOrigin: {
           x: width / 2,
           y: height / 2
@@ -63,12 +63,12 @@
       },
 
       presetInsaneRandomSizeFromLeftTop = {
-        count: 2000,
+        count: 500,
         size: function() {
           return Math.random() * 10 + 1;
         },
         minSpeed: 20,
-        maxSpeed: 100,
+        maxSpeed: 75,
         startOrigin: {
           x: 1,
           y: 1
@@ -76,12 +76,12 @@
       },
 
       presetInsaneRandomSizeFromCenter = {
-        count: 2000,
+        count: 500,
         size: function() {
           return Math.random() * 2 + 0.2;
         },
         minSpeed: 20,
-        maxSpeed: 100,
+        maxSpeed: 75,
         startOrigin: {
           x: width / 2,
           y: height / 2
@@ -194,7 +194,7 @@
     Particle = function(posx, posy, radius) {
 
       if (radius < 0) {
-        throw "Ошибка! Дан радиус частицы " + radius + " пикселей, но радиус не может быть отрицательным!";
+        throw "Error: Provided radius of  " + radius + " is negative, which is not a valid input";
       }
 
       this.position = {
@@ -208,11 +208,11 @@
         this.radius = radius || 0;
       }
 
-      this.status = 'standing'; // Статусы: standing || moving
+      this.status = 'standing'; // ???????: standing || moving
 
       this.direction = this.position;
 
-      this.speed = 1; // 1 пиксель в секунду
+      this.speed = 1; // 1 ??????? ? ???????
 
       this.spotlightTimeStamp = undefined;
 
