@@ -15,15 +15,15 @@
 	<!-- Latest Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<!-- Favicon -->
-	<link rel="icon" href="./src/img/bolt.png">
+	<link rel="icon" href="./src/img/favicon.png">
 	<!-- Font link -->
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
 	<!-- Font Awesome stuff -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<!-- CSS files -->
 	<link rel="stylesheet" type="text/css" href="./src/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/sidebar.css">
 	<link rel="stylesheet" type="text/css" href="./src/css/content.css">
-	<link rel="stylesheet" type="text/css" href="./src/css/contact.css">
 </head>
 <body>
 	<!-- Navigation bar -->
@@ -35,7 +35,6 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="https://illyamyshakov.com">Home</a></li>
 				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
 				<li><a href="./src/files/Illya_Myshakov.pdf" target="_blank">Resume</i></a></li>
 			</ul>
 		</div>
@@ -49,7 +48,33 @@
 	<!-- Profile Image -->
 	<div class="titlecard">
 		<div class="profileImg">
-				<img src="./src/img/Illya.jpg" class="img-circle" alt="Illya Myshakov">
+			<div class="gradient"></div>
+			<img src="./src/img/Illya_Myshakov.jpg" class="img-circle" alt="Illya Myshakov" width="10vw" height="10vh" border="0">
+		</div>
+	</div>
+
+	<!-- Sidebar -->
+	<div class = "sidebar">
+		<div class="circle">
+			<a href="mailto:imyshako@edu.uwaterloo.ca">
+				<div class="mail">
+					<i class="fas fa-envelope fa-1x fa-inverse" alt="Mail"></i>
+				</div>
+			</a>
+		</div>
+		<div class="circle">
+			<a href="https://www.linkedin.com/in/illyamyshakov/" target="_blank">
+				<div class="linkedin">
+					<i class="fab fa-linkedin-in fa-1x fa-inverse" alt="Linkedin"></i>
+				</div>
+			</a>
+		</div>
+		<div class="circle">
+			<a href="https://github.com/IllyaMyshakov/" target="_blank">
+				<div class="github">
+					<i class="fab fa-github fa-1x fa-inverse" alt="Github"></i>
+				</div>
+			</a> 
 		</div>
 	</div>
 
@@ -92,7 +117,6 @@
 						<li>Wrote a C++ program that collected daily production data and generated Excel files for QA department which increased reporting time efficiency by 35-50%.</li>
 						<li>Independently learned RAPID robot automation procedures and troubleshooting techniques via HMI control for application in assembly line processes, including conveyor belt operation.</li>
 						<li>Ensured daily production of 100+ solar panels by maintaining supervision of machinery via a Java-based touch interface and collaborating with other professionals.</li>
-					<li>Reference letter: <a href="./src/files/Reference_Letter_Illya.pdf" target="_blank"><img src="./src/img/file.jpg" alt="Letter" width="28" height="28" border="0"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -157,29 +181,6 @@
 		</div>
 	</div>
 
-	<!-- Contact Information -->
-	<div class = "contact-bar" id="contact">
-		<div class="row">
-			<div class="col-sm-4 resume">
-				<p>Email</p>
-				<i id="resume-arrow" class="fas fa-arrow-down"></i><br>
-				<a href="mailto:imyshako@edu.uwaterloo.ca">
-					<i class="fas fa-envelope" alt="Mail" width="200" height="200" border="0"></i></button></a>
-			</div>
-			<div class="col-sm-4 linkedin">
-				<p>LinkedIn</p>
-				<i id="resume-arrow" class="fas fa-arrow-down"></i><br>
-				<a href="https://www.linkedin.com/in/illyamyshakov/" target="_blank">
-					<i class="fab fa-linkedin" alt="Linkedin" width="200" height="200" border="0"></i></button></a>
-			</div>
-			<div class="col-sm-4 github">
-				<p>GitHub</p>
-				<i id="resume-arrow" class="fas fa-arrow-down"></i><br>
-				<a href="https://github.com/IllyaMyshakov/" target="_blank">
-					<i class="fab fa-github" alt="Github" width="200" height="200" border="0"></i></button></a> 
-			</div>
-		</div> 
-	</div>
 	<!-- JS Scripts -->
 	<script src="./src/js/index.js"></script>
 	<script src="./src/js/anime.min.js"></script>

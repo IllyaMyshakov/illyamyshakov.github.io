@@ -1,0 +1,40 @@
+/*== Sidebar ==*/
+
+.sidebar {
+    width: 8vw;
+    overflow: auto;
+    font-size:100px;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    top: 25vh;
+    right: 1vw;
+    overflow-x: hidden;
+}
+
+.sidebar .mail .linkedin .github{
+    padding: auto;
+    margin: auto;
+    padding: 1rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 1rem;
+    top: 1rem;
+    margin-top: -40px;
+}
+
+.circle {
+    background: black;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    display:inline-block;
+    padding:1.5rem;
+}
+.circle:hover {
+    background: grey;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}

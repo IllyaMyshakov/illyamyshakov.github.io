@@ -3,14 +3,33 @@
 .a {
 	text-decoration: none;
 }
-/*==Projects==*/
 
-.experienceText {
-	margin:0 auto;
-	overflow-wrap: normal;
-	padding: 40px;
+/*== Titlecard ==*/
+.titlecard { 
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+.titlecard h1 {
+    font-size: 90px;
+    text-align: center;
+    margin: 0 auto;
+    display: none;
+    padding-bottom: 15vw;
 }
 
+/*== Profile Image ==*/
+.profileImg {
+    z-index: 10;
+    border-radius: 50%;
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+
+.gradient {
+    background-image: linear-gradient(black, white);
+}
 /*==Experience==*/
 
 .experienceText {
@@ -31,14 +50,11 @@
     padding: 4vw 0vw 1vw 5vw;
 }
 
-/*==Biography==*/
-.profileImg {
-    padding: 50px;
+/*==Projects==*/
+
+.experienceText {
+	margin:0 auto;
+	overflow-wrap: normal;
+	padding: 40px;
 }
-.profileImg img{
-    width: 20%;
-    height: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
