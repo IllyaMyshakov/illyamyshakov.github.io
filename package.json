@@ -1,0 +1,19 @@
+{
+  "name": "illyamyshakov.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio website<br/>\r https://illyamyshakov.com/<br/>\r Here you can find a short biography for myself, completed projects, previous employment, volunteer experiences, my contact information and resume.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IllyaMyshakov/IllyaMyshakov.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IllyaMyshakov/IllyaMyshakov.github.io/issues"
+  },
+  "homepage": "https://github.com/IllyaMyshakov/IllyaMyshakov.github.io#readme"
+}

@@ -1,0 +1,38 @@
+/*== Sidebar ==*/
+
+.sidebar {
+    width: 8vw;
+    overflow: auto;
+    font-size:100px;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    top: 17vh;
+    right: 1vw;
+    overflow-x: hidden;
+}
+
+.circle {
+    background: black;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    display:inline-block;
+    padding:1.5rem;
+}
+/*== ==*/
+.circle i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.circle:hover {
+    background: grey;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}

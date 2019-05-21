@@ -1,0 +1,147 @@
+/*==Universal styles==*/
+html{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 400 1em/1.5 'Raleway', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* Navbar settings */
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    height: 1rem;
+    width: 100%; /* Full width */
+    overflow: hidden;
+    z-index: 5;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 14px;
+}
+/*== Animation ==*/
+.animation {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+canvas {
+    background-color: #000000;
+    /* Center and scale the image nicely */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/*==Main Screen==*/
+.a {
+	text-decoration: none;
+}
+
+.intro {
+    margin: 0 auto;
+    padding: 0px;
+    width: 35%;
+}
+.into p {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin:0 auto;
+}
+
+/*==Projects==*/
+
+.experienceText {
+	margin:0 auto;
+	overflow-wrap: normal;
+	padding: 40px;
+}
+
+/*==Experience==*/
+
+.experienceText {
+	margin:0 3rem;
+	overflow-wrap: normal;
+	padding: 50px;
+}
+
+.experienceText li {
+	padding: 20px;
+	margin:0 auto;
+	width: 100%;
+}
+.experienceLogo {
+	display: block;
+	position: absolute;
+	right: 0px;
+    padding: 4vw 0vw 1vw 5vw;
+}
+
+/*==Contact Information page==*/
+
+.contact-bar {
+    width: 100%;
+    overflow: auto;
+    padding: 5vw;
+    text-align: center;
+    margin: 0 auto;
+}
+.contact-bar a {
+    text-align: center; 
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    font-size: 36px;
+    margin:0 auto;
+    margin-top: 3vh;
+    padding-bottom: 5vh;
+}
+.contact-bar p{
+    padding: 2vw;
+    color: black;
+}
+.divider_2 {
+	background-color:#939393;
+	height:1px;
+	width:30%;
+	margin:1vw auto;	
+}
+.contact-bar a:hover {
+    margin: 0 auto;
+}
+
+.btn {
+    margin:4vw auto;   
+}
+
+/*==Biography==*/
+.profileImg {
+    padding: 50px;
+}
+.profileImg img{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.biography {
+    display: block;
+    overflow: hidden;
+    margin:0 auto;
+    padding: 3vw 7vw;
+}

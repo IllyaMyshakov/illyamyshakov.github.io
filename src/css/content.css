@@ -1,0 +1,85 @@
+
+/*==Main Screen==*/
+.a {
+	text-decoration: none;
+}
+
+.main_name h1{
+    position: absolute;
+    width: 100vw;
+    top: 40vh;
+    color: white;
+    font-weight: bold;
+    font-size: 90px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+/*== Titlecard ==*/
+.titlecard {
+    padding: 3vh;
+}
+
+.titlecard h1 {
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+    padding: 3vh;
+}
+
+/*== Profile Image ==*/
+.profileImg {
+    padding: 50px;
+}
+.profileImg img{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*== About Me ==*/
+.bio {
+    background-color:#d5d5d5;
+    margin: 0 auto;
+}
+.bio h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    position: relative;
+    font-weight: bold;
+}
+.introText {
+    margin:0 3rem;
+	overflow-wrap: normal;
+    padding: 6vh 12vw;
+    text-align: center;
+}
+
+.divider {
+	background-color:black;
+	height:1px;
+	width:20vw;
+    margin:2vw auto;
+}
+/*== Experience ==*/
+
+.experienceText {
+	margin:0 3rem;
+	overflow-wrap: normal;
+	padding: 50px;
+}
+
+.experienceText li {
+	padding: 20px;
+	margin:0 auto;
+	width: 100%;
+}
+.experienceLogo {
+	display: block;
+	position: absolute;
+	right: 0px;
+    padding: 4vw 0vw 1vw 5vw;
+}
