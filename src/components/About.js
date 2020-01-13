@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CenteredGrid from './CenteredGrid';
 
 class About extends Component
 {
@@ -6,7 +7,7 @@ class About extends Component
     {
         return(
             <div className="About">
-                
+                <CenteredGrid />
             </div>
         )
     }

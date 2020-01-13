@@ -1,0 +1,11 @@
+.ImageCircle {
+    background: black;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 1.5rem;
+}

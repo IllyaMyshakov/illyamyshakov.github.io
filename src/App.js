@@ -1,8 +1,9 @@
 import React from 'react';
-import logo from '../images/logo.svg';
+import logo from './images/logo.svg';
 import './App.css';
-import TopBar from './TopBar.js';
-import Experience from './Experience';
+import TopBar from './components/TopBar.js';
+import Experience from './components/Experience';
+import About from './components/About';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 >
                     Learn React
                 </a>
+                <About />
                 <Experience />
             </header>
         </div>
