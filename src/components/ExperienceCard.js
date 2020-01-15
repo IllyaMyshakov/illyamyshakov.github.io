@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Card from '@material-ui/core/Card';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Container from '@material-ui/core/Container';
 
 class ExperienceCard extends Component
 {  
@@ -18,11 +20,14 @@ class ExperienceCard extends Component
     {
         return(
             <div className="ExperienceCard">
-                <Card>
-                    <h1>{this.state.title}</h1>
-                    <img src={this.state.image} alt={this.state.title} />
-                    <p>{this.state.content}</p>
-                </Card>
+                <CssBaseline />
+                <Container maxWidth="sm">
+                    <Card>
+                        <h1>{this.state.title}</h1>
+                        <img src={this.state.image} alt={this.state.title} />
+                        <p>{this.state.content}</p>
+                    </Card>
+                </Container>
             </div>
         )
     }

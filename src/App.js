@@ -8,8 +8,8 @@ import About from './components/About';
 function App() {
     return (
         <div className="App">
+            <TopBar />
             <header className="App-header">
-                <TopBar />
                 <img src={logo} className="App-logo" alt="logo" />
                 <a
                     className="App-link"
