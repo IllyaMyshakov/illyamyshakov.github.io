@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
+// Import CSS
+import './Sidebar.css'
 
 class Sidebar extends Component
 {

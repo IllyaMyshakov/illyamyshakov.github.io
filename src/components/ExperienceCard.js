@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Card from '@material-ui/core/Card';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
+// CSS import
+import './ExperienceCard.css';
 
 class ExperienceCard extends Component
 {  

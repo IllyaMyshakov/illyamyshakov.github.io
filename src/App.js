@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './images/logo.svg';
+// import logo from './images/logo.svg';
 import './App.css';
 import TopBar from './components/TopBar.js';
 import Experience from './components/Experience';
@@ -10,15 +10,14 @@ function App() {
         <div className="App">
             <TopBar />
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <a
+                {/* <img src={logo} className="App-logo" alt="logo" /> */}
+                {/* <a
                     className="App-link"
                     href="https://reactjs.org"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Learn React
-                </a>
+                </a> */}
                 <About />
                 <Experience />
             </header>
