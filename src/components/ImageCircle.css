@@ -1,5 +1,4 @@
-.ImageCircle {
-    background: black;
+.imageCircle {
     font-size: 30px;
     text-align: center;
     margin-right: 10px;
@@ -8,4 +7,15 @@
     border-radius: 100%;
     display: inline-block;
     padding: 1.5rem;
+}
+
+/* == ==
+.imageCircle i {
+    display: flex;
+    place-items: center;
+    overflow: hidden;
+} */
+
+.imageCircle:hover {
+    background: grey;
 }
