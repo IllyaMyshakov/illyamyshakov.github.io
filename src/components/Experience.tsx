@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import ExperienceCard from './ExperienceCard';
@@ -8,9 +8,13 @@ import titanium from '../images/titanium_agency.png';
 import imagine from '../images/imagine.png';
 import silfab from '../images/silfab.png';
 
-class Experience extends Component
+export default class Experience extends React.Component
 {  
-    render()
+    public constructor(props: any) {
+        super(props);
+    }
+
+    public render()
     {
         return(
             <React.Fragment>
@@ -26,5 +30,3 @@ class Experience extends Component
         )
     }
 }
-
-export default Experience;
