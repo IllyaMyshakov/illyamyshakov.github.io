@@ -3,12 +3,18 @@ import Grid from '@material-ui/core/Grid';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import ImageCircle from './ImageCircle';
+import { IconName } from '@fortawesome/fontawesome-svg-core';
 
-// Import Font Awesome icons
-import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+// Font Awesome icon names
+const faFileName: IconName = 'file';
+const faEnvelopeName: IconName = 'envelope';
+const faLinkedInName: IconName = 'linkedin-in';
+const faGithubName: IconName = 'github';
+// Font Awesome icons
+const faFile: IconName = faFileName;
+const faEnvelope: IconName = faEnvelopeName;
+const faLinkedIn: IconName = faLinkedInName;
+const faGithub: IconName = faGithubName;
 
 const style: object = {
     '.sidebar': {
@@ -52,7 +58,7 @@ export default class SideBar extends React.Component {
                         <Grid item>
                             <ImageCircle
                                 link={resume}
-                                icon={faFileDownload}
+                                icon={faFile}
                                 alt={resumeAlt} />
                         </Grid>
                     </Grid>
@@ -67,7 +73,7 @@ export default class SideBar extends React.Component {
                     <Grid>
                         <Grid item>
                             <ImageCircle link={linkedin}
-                                icon={faLinkedin}
+                                icon={faLinkedIn}
                                 alt={linkedinAlt} />
                         </Grid>
                     </Grid>

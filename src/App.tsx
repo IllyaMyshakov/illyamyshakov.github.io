@@ -1,5 +1,9 @@
 import React from 'react';
-import { TopBar, SideBar, Experience, About } from './components';
+import About from './components/About';
+import Experience from './components/Experience';
+import SideBar from './components/SideBar';
+import TopBar from './components/TopBar';
+
 
 const style: object = {
   '.App': {

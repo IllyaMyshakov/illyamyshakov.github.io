@@ -2,7 +2,7 @@ import React from 'react';
 
 // get our fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { IconProp } from '@fortawesome/fontawesome-svg-core';
+import { IconName } from '@fortawesome/fontawesome-svg-core';
 const style: object = {
     '.imageCircle': {
         'font-size': '30px',
@@ -21,7 +21,7 @@ const style: object = {
 
 interface ImageCircleProps {
     link: string;
-    icon: IconProp;
+    icon: IconName;
     alt: string;
 }
 
